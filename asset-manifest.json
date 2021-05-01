@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "qiuhongannawei.me/static/css/main.34de6062.chunk.css",
+    "main.js": "qiuhongannawei.me/static/js/main.55e1e6af.chunk.js",
+    "main.js.map": "qiuhongannawei.me/static/js/main.55e1e6af.chunk.js.map",
+    "runtime~main.js": "qiuhongannawei.me/static/js/runtime~main.4ec54cb5.js",
+    "runtime~main.js.map": "qiuhongannawei.me/static/js/runtime~main.4ec54cb5.js.map",
+    "static/js/2.bd6ff9a8.chunk.js": "qiuhongannawei.me/static/js/2.bd6ff9a8.chunk.js",
+    "static/js/2.bd6ff9a8.chunk.js.map": "qiuhongannawei.me/static/js/2.bd6ff9a8.chunk.js.map",
+    "index.html": "qiuhongannawei.me/index.html",
+    "precache-manifest.aec6d96f80a5b44a1b080dc4c2fafeb2.js": "qiuhongannawei.me/precache-manifest.aec6d96f80a5b44a1b080dc4c2fafeb2.js",
+    "service-worker.js": "qiuhongannawei.me/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "qiuhongannawei.me/static/css/main.34de6062.chunk.css.map",
+    "static/media/gooey1.png": "qiuhongannawei.me/static/media/gooey1.cbf38067.png",
+    "static/media/name1.png": "qiuhongannawei.me/static/media/name1.6f86be17.png",
+    "static/media/profile.png": "qiuhongannawei.me/static/media/profile.d50de5ee.png",
+    "static/media/toolkit1.png": "qiuhongannawei.me/static/media/toolkit1.28f560de.png",
+    "static/media/zoom1.jpg": "qiuhongannawei.me/static/media/zoom1.4502ee30.jpg"
+  }
+}
