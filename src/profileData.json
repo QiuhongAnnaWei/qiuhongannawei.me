@@ -1,0 +1,211 @@
+{
+	"landing": {
+		"firstName": "Qiuhong (Anna)",
+		"lastName": "Wei",
+		"phoneNumber": "",
+		"email": "qiuhong.anna.wei@gmail.com",
+		"schoolemail":"qiuhong_wei@brown.edu",
+		"linkedin": "http://linkedin.com/in/qiuhong-anna-wei",
+		"github": "http://github.com/QiuhongAnnaWei"
+	},
+	"experience": [
+		{
+			"position": "VP of Technology",
+			"organization": "Keo Plus",
+			"organizationDesc":"Silicon Valley VC funded seed-stage EdTech start-up",
+			"aboutWork": [
+				"Setting strategy and leading dev team of 6 for platform for class taking, streaming, marketing; building personalized learning algorithms",
+				"Building 100+ REST API and web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; storing data in MongoDB for flexibility and scalability; streamlining testing with Google Cloud Run and Cypress",
+				"Deploying with Kubernetes, Alibaba Cloud, and Docker; managing file storage, routing, load balance, domain name, infrastructure with Alibaba Cloud; distributing content with AWS; establishing product management protocols and managing Agile practices with Git, Jira"
+			],
+			"fromDate": "Nov 2020",
+			"toDate": "Present"
+		},
+		{
+			"position": "Digital Product Management Intern ",
+			"organization": "Novartis ",
+			"organizationDesc":"Top 5 pharma globally",
+			"aboutWork": [
+				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition AI API in collaboration with Tencent AI Lab",
+				"Helped manage a health WeChat miniprogram (80k users): optimized business intelligence time performance by 99.8% with Python and Selenium, worked cross-functionally to facilitate design and delivery of complex, multi-disciplinary features, assisted senior strategy"
+			],
+			"fromDate": "Oct 2020",
+			"toDate": "Jan 2021"
+		},
+		{
+			"position": "AI Research Engineer Intern",
+			"organization": "Roborock",
+			"organizationDesc":"Global top 3 for intelligent robot vacuum",
+			"aboutWork": [
+				"Built an automated CI/CD pipeline that processes 700k images weekly for customer-facing computer vision object detection AI models",
+				"Developed and integrated image rectification, intelligent filtering, object detection, inference verification, and relational database using Bash, Python, SQL, PHP, HTML, CSS, JavaScript, Docker, Git; significantly accelerated and streamlined CNN model training and testing",
+				"Participated in paper reading and implementation of YOLO, SSD, MobileNet, Monodepth, Neural Architecture Search, FreeAnchor, etc."
+			],
+			"fromDate": "May 2020",
+			"toDate": "Sep 2020"
+		}
+	],
+	"research":[
+		{
+			"position": "Computer Vision",
+			"organization": "Brown Interactive 3D Vision & Learning Lab",
+			"organizationLink":"https://visual.cs.brown.edu/",
+			"organizationDesc":"",
+			"aboutWork": [
+				"Investigating deep learning based shape-from-silhouette 3D visual hull reconstruction; leveraging oriented projective geometry for self-supervision and neural networks for solving long-standing concavity and occlusion challenges (PyTorch); advised by Prof. Srinath Sridhar"
+			],
+			"fromDate": "Mar 2020",
+			"toDate": "Present"
+		},
+		{
+			"position": "Vision-Language Multimodal Machine Learning",
+			"organization": "Brown Perception, Action, and Cognitio Lab",
+			"organizationLink":"https://visual.cs.brown.edu/",
+			"organizationDesc":"",
+			"aboutWork": [
+				"Examining generative models such as autoregressive transformers and their application in multimodal ML; advised by Prof. Chen Sun"
+			],
+			"fromDate": "Mar 2020",
+			"toDate": "Present"
+		},
+		{
+			"position": "Deep Learning / Applied Mathematics",
+			"organization": "Brown Applied Math Directed Reading Program",
+			"organizationLink":"https://www.dam.brown.edu/drp/",
+			"organizationDesc":"Code",
+			"organizationDescLink":"https://github.com/QiuhongAnnaWei/PINNs",
+			"aboutWork": [
+				"Analyzed and implemented Physics-Informed Neural Networks (deep NNs that encode physical laws) with TensorFlow and matplotlib to solve problems involving differential equations (inference relative error <0.3%); worked with Enrui Zhang under Prof. George Karniadakis"
+			],
+			"fromDate": "Sep 2020",
+			"toDate": "Dec 2020"
+		}
+
+	],
+	"projects":[
+
+	],
+	"education": [
+		{}
+	],
+	"skills": {
+		"programmingLanguage":[
+			{
+				"name": "Python"
+			},
+			{
+				"name": "Java"
+			},
+			{
+				"name": "JavaScript/TypeScript"
+			},
+			{
+				"name": "HTML"
+			},
+			{
+				"name": "Bash"
+			},
+			{
+				"name": "SQL"
+			},
+			{
+				"name": "PHP"
+			},
+			{
+				"name": "Racket"
+			},
+			{
+				"name": "Pyret"
+			}
+		],
+		"tech":[			
+			{
+				"name": "TensorFlow"
+			},
+			{
+				"name": "PyTorch"
+			},
+			{
+				"name": "Git"
+			},
+			{
+				"name": "Angular"
+			},
+			{
+				"name": "React"
+			},
+			{
+				"name": "Vue"
+			},
+			{
+				"name": "Node"
+			},
+			{
+				"name": "Flask"
+			},
+			{
+				"name": "MongoDB"
+			},
+			{
+				"name": "Firebase"
+			},
+			{
+				"name": "Docker"
+			},
+			{
+				"name": "GCP"
+			},
+			{
+				"name": "Alibaba Cloud"
+			},
+			{
+				"name": "AWS"
+			},
+			{
+				"name": "K8s"
+			},
+			{
+				"name": "Latex"
+			}
+		]
+	},
+	"interests": {
+		"paragraphOne": "Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.",
+		"paragraphTwo": "When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world."
+	},
+	"awards": {
+		"CS":[
+			{
+				"awardDetail": "HackDuke Best Environment Hack"
+			},
+			{
+				"awardDetail": "Hack@Home Best Professional Hack Finalist"
+			},
+			{
+				"awardDetail": " Canadian Computing Comp. top 3"
+			},
+			{
+				"awardDetail": "Rensselaer Medal ($100k scholarship)"
+			}
+		],
+		"Math":[
+			{
+				"awardDetail": "2020 Mathematical Contest in Modeling Meritorious Winner (top 8%)"
+			},
+			{
+				"awardDetail": "Brown Mathematical Contest in Modeling 1st Place"
+			},
+			{
+				"awardDetail": "Hartshorn-Hypatia Prize Mathematics Exam 3rd place"
+			}
+		],
+		"Research":[
+			{
+				"awardDetail": "Undergrad Teaching and Research Award"
+			},
+			{
+				"awardDetail": "2018 Intel ISEF World Finals 4th Place"
+			}
+		]
+	}
+}

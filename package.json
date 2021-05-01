@@ -1,0 +1,57 @@
+{
+  "name": "personalwebsite",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "qiuhongannawei.me",
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.19",
+    "@fortawesome/free-brands-svg-icons": "^5.9.0",
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
+    "@fortawesome/react-fontawesome": "^0.1.4",
+    "gh-pages": "^2.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.7.0",
+    "react-scripts": "3.0.1",
+    "bootstrap": "4.6.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "autoprefixer": "10.2.5",
+    "browser-sync": "2.26.14",
+    "chokidar": "3.5.1",
+    "concurrently": "6.0.2",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "postcss": "8.2.13",
+    "prettier": "2.2.1",
+    "pug": "3.0.2",
+    "sass": "1.32.11",
+    "shelljs": "0.8.4",
+    "typescript": "^4.2.4",
+    "upath": "2.0.1"
+  }
+}
