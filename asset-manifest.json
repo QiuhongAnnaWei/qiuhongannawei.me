@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "qiuhongannawei.me/static/css/main.34de6062.chunk.css",
-    "main.js": "qiuhongannawei.me/static/js/main.53c4c096.chunk.js",
-    "main.js.map": "qiuhongannawei.me/static/js/main.53c4c096.chunk.js.map",
-    "runtime~main.js": "qiuhongannawei.me/static/js/runtime~main.4ec54cb5.js",
-    "runtime~main.js.map": "qiuhongannawei.me/static/js/runtime~main.4ec54cb5.js.map",
-    "static/js/2.bd6ff9a8.chunk.js": "qiuhongannawei.me/static/js/2.bd6ff9a8.chunk.js",
-    "static/js/2.bd6ff9a8.chunk.js.map": "qiuhongannawei.me/static/js/2.bd6ff9a8.chunk.js.map",
-    "index.html": "qiuhongannawei.me/index.html",
-    "precache-manifest.492c7ebf1e8031fe674ab0b170f7ab7f.js": "qiuhongannawei.me/precache-manifest.492c7ebf1e8031fe674ab0b170f7ab7f.js",
-    "service-worker.js": "qiuhongannawei.me/service-worker.js",
-    "static/css/main.34de6062.chunk.css.map": "qiuhongannawei.me/static/css/main.34de6062.chunk.css.map",
-    "static/media/gooey1.png": "qiuhongannawei.me/static/media/gooey1.cbf38067.png",
-    "static/media/name1.png": "qiuhongannawei.me/static/media/name1.6f86be17.png",
-    "static/media/profile.png": "qiuhongannawei.me/static/media/profile.d50de5ee.png",
-    "static/media/toolkit1.png": "qiuhongannawei.me/static/media/toolkit1.28f560de.png",
-    "static/media/zoom1.jpg": "qiuhongannawei.me/static/media/zoom1.4502ee30.jpg"
+    "main.css": "/static/css/main.34de6062.chunk.css",
+    "main.js": "/static/js/main.b8f87553.chunk.js",
+    "main.js.map": "/static/js/main.b8f87553.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.bd6ff9a8.chunk.js": "/static/js/2.bd6ff9a8.chunk.js",
+    "static/js/2.bd6ff9a8.chunk.js.map": "/static/js/2.bd6ff9a8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e9e985bc8b9212dec9655388a2d5e1ba.js": "/precache-manifest.e9e985bc8b9212dec9655388a2d5e1ba.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/static/css/main.34de6062.chunk.css.map",
+    "static/media/gooey1.png": "/static/media/gooey1.cbf38067.png",
+    "static/media/name1.png": "/static/media/name1.6f86be17.png",
+    "static/media/profile.png": "/static/media/profile.d50de5ee.png",
+    "static/media/toolkit1.png": "/static/media/toolkit1.28f560de.png",
+    "static/media/zoom1.jpg": "/static/media/zoom1.4502ee30.jpg"
   }
 }
