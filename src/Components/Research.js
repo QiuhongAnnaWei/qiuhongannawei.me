@@ -24,15 +24,15 @@ class Research extends Component {
                   </div>
 
                   <div> 
-                    <a className="subheading mb-3" href={exp.organizationLink}>{exp.organization} </a>
-                    <a className="subsubheading1 mb-3" href={exp.organizationDescLink}>{exp.organizationDesc} </a>
+                    <a className="subheading mb-3" href={exp.organizationLink} target="_blank" rel="noopener noreferrer">{exp.organization} </a>
+                    <a className="subsubheading1 mb-3" href={exp.organizationDescLink} target="_blank" rel="noopener noreferrer">{exp.organizationDesc} </a>
                     {/* <span className="subsubheading1 mb-3">{exp.organizationDesc}</span> */}
                   </div> 
 
                   {/* <p>{exp.aboutWork}</p> */}
                   <ul className=" mb-0">
                     {
-                      exp.aboutWork.map((item, index) => (<li> {item} </li>))
+                      exp.aboutWork.map((item, index) => (<li key={index}> {item} </li>))
                     }
                   </ul>
 

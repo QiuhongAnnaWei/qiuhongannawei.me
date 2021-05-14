@@ -27,8 +27,8 @@ class Experience extends Component {
                     <span className="subsubheading1 mb-3">{exp.organizationDesc}</span>
                   </div> 
 
-                  <ul className=" mb-0">
-                    { exp.aboutWork.map((item, index) => (<li> {item} </li>))}
+                  <ul className="mb-0">
+                    { exp.aboutWork.map((item, index) => (<li key={index}> {item} </li>))}
                   </ul>
 
                 </div>

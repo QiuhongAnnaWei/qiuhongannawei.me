@@ -25,9 +25,9 @@ class Projects extends Component {
               <div> 
                 <span className="heading mb-0 mr-2"> Gooey </span>
                 <span className="social-icons-small"> 
-                  <a title="Source Code" className="mr-2" href="https://github.com/QiuhongAnnaWei/gooey">  <FontAwesomeIcon icon={faGithub} /> </a> 
-                  <a title="Website" className="mr-2" href="https://powerful-forest-21960.herokuapp.com/">  <FontAwesomeIcon icon={faPager} /> </a> 
-                  <a title="Algorithm Description" className="mr-2" href="https://docs.google.com/document/d/1ts_QSpuJDQqgbBVtceSGiOymGBzZEkaK5yIBBx2hbGw/edit?usp=sharing">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
+                  <a title="Source Code" className="mr-2" href="https://github.com/QiuhongAnnaWei/gooey" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a> 
+                  <a title="Website" className="mr-2" href="https://powerful-forest-21960.herokuapp.com/" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a> 
+                  <a title="Algorithm Description" className="mr-2" href="https://docs.google.com/document/d/1ts_QSpuJDQqgbBVtceSGiOymGBzZEkaK5yIBBx2hbGw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
                 </span>
               </div>
               <div className="subheading mb-0" href=""> ML-powered graphic design web app that streamlines stylesheet making </div>
@@ -63,9 +63,9 @@ class Projects extends Component {
               <div> 
                 <span className="heading mb-0 mr-2"> Zoom and Enhance </span>
                 <span className="social-icons-small"> 
-                  <a title="Source Code" className="mr-2" href="https://github.com/crown523/zoom_and_enhance">  <FontAwesomeIcon icon={faGithub} /> </a> 
-                  <a title="Website" className="mr-2" href="https://zoomandenhance.herokuapp.com/">  <FontAwesomeIcon icon={faPager} /> </a> 
-                  <a title="DEVPOST" className="mr-2" href="https://devpost.com/software/zoom-and-enhance-v6t3qy">  <FontAwesomeIcon icon={faDev} /> </a> 
+                  <a title="Source Code" className="mr-2" href="https://github.com/crown523/zoom_and_enhance" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a> 
+                  <a title="Website" className="mr-2" href="https://zoomandenhance.herokuapp.com/" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a> 
+                  <a title="DEVPOST" className="mr-2" href="https://devpost.com/software/zoom-and-enhance-v6t3qy" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faDev} /> </a> 
                 </span>
               </div>
               <div className="subheading mb-0" href=""> Web app for NLP-supported efficient video notetaking </div>
@@ -84,7 +84,7 @@ class Projects extends Component {
               <div> 
                 <span className="heading mb-0 mr-2"> Hi, My Name is… </span>
                 <span className="social-icons-small"> 
-                  <a title="DEVPOST" className="mr-2" href="https://devpost.com/software/hi-my-name-is">  <FontAwesomeIcon icon={faDev} /> </a> 
+                  <a title="DEVPOST" className="mr-2" href="https://devpost.com/software/hi-my-name-is" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faDev} /> </a> 
                 </span>
               </div>
               <div className="subheading mb-0" href=""> A DL-powered web app for generating tailored creative names </div>
