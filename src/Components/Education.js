@@ -25,7 +25,7 @@ class Education extends Component {
               
               <ul className="mb-2">
                 <li> <span className="subsubheading2"> GPA </span>: 4.00/4.00 </li>
-                <li> <span className="subsubheading2"> Relevant Coursework </span>: Computer Vision, Software Engineering, Statistical Inference, Differential Equations, Abstract Algebra, Introduction to Higher Mathematics (Set Theory, Combinatorics, Analysis), Honors Calculus </li>
+                <li> <span className="subsubheading2"> Relevant Coursework </span> Software Engineering, Computer Vision, Statistical Inference, Differential Equations, Abstract Algebra, Introduction to Higher Mathematics (Set Theory, Combinatorics, Analysis), Honors Calculus, Linear Algebra </li>
                 <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the 2 Meta Undergraduate Research Assistants in the CS department, for which I serve as the liaison between faculty and 1200 students in the Computer Science department to facilitate undergraduate research </li>
                 <li> <span className="subsubheading2"> Activities </span>: Women in Computer Science (WiCS), Socially Responsible Investment Fund (SRIF), Brown Science Olympiad Event Coordinator, Daebak Dance, Chinese Drama Club </li>
               </ul>

@@ -14,31 +14,32 @@
 			"organization": "Keo Plus",
 			"organizationDesc":"Silicon Valley VC funded seed-stage EdTech start-up",
 			"aboutWork": [
-				"Setting strategy and leading dev team of 6 for platform for class taking, streaming, marketing; building personalized learning algorithms",
-				"Building 100+ REST API and web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; storing data in MongoDB for flexibility and scalability; streamlining testing with Google Cloud Run and Cypress",
-				"Deploying with Kubernetes, Alibaba Cloud, and Docker; managing file storage, routing, load balance, domain name, infrastructure with Alibaba Cloud; distributing content with AWS; establishing product management protocols and managing Agile practices with Git, Jira"
+				"Leading dev team of 6 building platform for class taking, streaming, marketing; setting strategy and driving product development",
+				"Building 100+ REST API and web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; storing data in MongoDB for flexibility and scalability; streamlining testing with Google Cloud Run",
+				"Deploying with Alibaba Cloud, Docker, Kubernetes; managing servers, domains, infrastructure, file storage, content distribution, load balance, SMS/Email with Alibaba Cloud, AWS; establishing product management protocols and managing Agile practices with Git, Jira",
+				"Conducting full stack development of important features such as phone user authentication, offline quiz, third party account linkage"
 			],
 			"fromDate": "Nov 2020",
 			"toDate": "Present"
 		},
 		{
-			"position": "Digital Product Management Intern ",
+			"position": "Digital Product Management and Data Intern ",
 			"organization": "Novartis ",
 			"organizationDesc":"Top 5 pharma globally",
 			"aboutWork": [
 				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition AI API in collaboration with Tencent AI Lab",
-				"Helped manage a health WeChat miniprogram (80k users): optimized business intelligence time performance by 99.8% with Python and Selenium, worked cross-functionally to facilitate design and delivery of complex, multi-disciplinary features, assisted senior strategy"
+				"Helped manage a health WeChat miniprogram (170k users): optimized business intelligence time performance by 99.8% with Python and Selenium, worked cross-functionally to facilitate design and delivery of complex, multi-disciplinary features, assisted senior strategy"
 			],
 			"fromDate": "Oct 2020",
 			"toDate": "Jan 2021"
 		},
 		{
-			"position": "AI Research Engineer Intern",
+			"position": "AI Research Software Engineer Intern",
 			"organization": "Roborock",
 			"organizationDesc":"Global top 3 for intelligent robot vacuum",
 			"aboutWork": [
 				"Built an automated CI/CD pipeline that processes 700k images weekly for customer-facing computer vision object detection AI models",
-				"Developed and integrated image rectification, intelligent filtering, object detection, inference verification, and relational database using Bash, Python, SQL, PHP, HTML, CSS, JavaScript, Docker, Git; significantly accelerated and streamlined CNN model training and testing",
+				"Developed and integrated image preprocessing, object detection, inference verification website, self-designed relational database with Bash, Python, SQL, PHP, HTML, CSS, JavaScript, Docker, Git; significantly accelerated and streamlined CNN model training and testing",
 				"Participated in paper reading and implementation of YOLO, SSD, MobileNet, Monodepth, Neural Architecture Search, FreeAnchor, etc."
 			],
 			"fromDate": "May 2020",
@@ -52,7 +53,7 @@
 			"organizationLink":"https://visual.cs.brown.edu/",
 			"organizationDesc":"",
 			"aboutWork": [
-				"Investigating deep learning based shape-from-silhouette 3D visual hull reconstruction; leveraging oriented projective geometry for self-supervision and neural networks for solving long-standing concavity and occlusion challenges (PyTorch); advised by Prof. Srinath Sridhar"
+				"Investigating deep learning based shape-from-silhouette 3D reconstruction to solve traditional concavity, occlusion challenges (PyTorch); building encoder-decoder for segmentation and occupancy modeling; leveraging geometry for self-supervision; advisor: Prof. Srinath Sridhar"
 			],
 			"fromDate": "Mar 2020",
 			"toDate": "Present"
@@ -63,7 +64,7 @@
 			"organizationLink":"https://visual.cs.brown.edu/",
 			"organizationDesc":"",
 			"aboutWork": [
-				"Examining generative models such as autoregressive transformers and their application in multimodal ML; advised by Prof. Chen Sun"
+				"Examining graph NNs (transformer, interaction net) for reinforcement learning and multimodal application; advisor: Prof. Chen Sun"
 			],
 			"fromDate": "Mar 2020",
 			"toDate": "Present"
@@ -93,13 +94,13 @@
 				"name": "Java"
 			},
 			{
+				"name": "Bash"
+			},
+			{
 				"name": "JavaScript/TypeScript"
 			},
 			{
 				"name": "HTML"
-			},
-			{
-				"name": "Bash"
 			},
 			{
 				"name": "SQL"
@@ -159,6 +160,9 @@
 			},
 			{
 				"name": "K8s"
+			},
+			{
+				"name": "Slurm"
 			},
 			{
 				"name": "Latex"
