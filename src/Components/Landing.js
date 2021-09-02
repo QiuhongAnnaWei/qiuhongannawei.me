@@ -28,7 +28,7 @@ class Landing extends Component {
             <br/><br/>
             I am currently a Computer Science-Applied Math student at <a href='https://www.brown.edu/' target="_blank" rel="noopener noreferrer">Brown University</a> and
             a researcher in the <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Brown Visual Computing group</a>. 
-            Outside of class, I enjoy dancing, backpacking, as well as reading and writing Chinese poetry.
+            Outside of class, I enjoy dancing, backpacking, as well as creative writing.
             <br/><br/>
             Feel free to send me an email or reach out on LinkedIn if you'd like to chat!
           </p>

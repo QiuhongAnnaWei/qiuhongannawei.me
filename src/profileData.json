@@ -14,10 +14,10 @@
 			"organization": "Keo Plus",
 			"organizationDesc":"Silicon Valley VC funded seed-stage EdTech start-up",
 			"aboutWork": [
-				"Leading dev team of 6 building platform for class taking, streaming, marketing; setting strategy and driving product development",
-				"Building 100+ REST API and web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; storing data in MongoDB for flexibility and scalability; streamlining testing with Google Cloud Run",
+				"Leading dev team of 6 in building platform for class taking, streaming, marketing; setting strategy and driving product development",
+				"Building 100+ REST API for web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; storing data in MongoDB for flexibility and scalability; streamlining quality assurance and user acceptance tests with Google Cloud Run",
 				"Deploying with Alibaba Cloud, Docker, Kubernetes; managing servers, domains, infrastructure, file storage, content distribution, load balance, SMS/Email with Alibaba Cloud, AWS; establishing product management protocols and managing Agile practices with Git, Jira",
-				"Conducting full stack development of important features such as phone user authentication, offline quiz, third party account linkage"
+				"Conducted full stack development of features critical to local target clients such as phone auth, offline quiz, third party account linkage"
 			],
 			"fromDate": "Nov 2020",
 			"toDate": "Present"
@@ -27,8 +27,10 @@
 			"organization": "Novartis ",
 			"organizationDesc":"Top 5 pharma globally",
 			"aboutWork": [
-				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition AI API in collaboration with Tencent AI Lab",
-				"Helped manage a health WeChat miniprogram (170k users): optimized business intelligence time performance by 99.8% with Python and Selenium, worked cross-functionally to facilitate design and delivery of complex, multi-disciplinary features, assisted senior strategy"
+				"Co-managed a health software (170k users) with 10 others",
+				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition API in collaboration with Tencent AI Lab, significantly improved elderly users’ experience",
+				"Optimized business intelligence time performance by 99.8% with Python and Selenium",
+				"Worked cross-functionally to facilitate design and delivery of complex features"
 			],
 			"fromDate": "Oct 2020",
 			"toDate": "Jan 2021"
@@ -38,9 +40,9 @@
 			"organization": "Roborock",
 			"organizationDesc":"Global top 3 for intelligent robot vacuum",
 			"aboutWork": [
-				"Built an automated CI/CD pipeline that processes 700k images weekly for customer-facing computer vision object detection AI models",
-				"Developed and integrated image preprocessing, object detection, inference verification website, self-designed relational database with Bash, Python, SQL, PHP, HTML, CSS, JavaScript, Docker, Git; significantly accelerated and streamlined CNN model training and testing",
-				"Participated in paper reading and implementation of YOLO, SSD, MobileNet, Monodepth, Neural Architecture Search, FreeAnchor, etc."
+				"Built an automated CI/CD pipeline in Linux environment that handles 700k images weekly for customer-facing object detection AI model",
+				"Developed and integrated image preprocessing, object detection, inference verification website, self-designed relational database with Bash, Python, SQL, PHP, HTML, CSS, JS, Docker, Git; streamlined and raised delivery efficiency of CNN model development by 62.5%",
+				"Participated in paper reading and implementation of YOLO, SSD, MobileNet, Monodepth, Neural Architecture Search, FreeAnchor"
 			],
 			"fromDate": "May 2020",
 			"toDate": "Sep 2020"
@@ -48,14 +50,28 @@
 	],
 	"research":[
 		{
+			"position": "3D Modeling and Synthesis",
+			"organization": "Chinese University of Hong Kong - HK University of Science and Technology",
+			"organizationLink":"",
+			"organizationDesc":"",
+			"aboutWork": [
+				"Researching novel view synthesis and human rendering from sparse input images with implicit neural fields; aiming for CVPR submission",
+				"Developing across servers and integrating diverse packages (e.g. OpenPose, SMPL) with conda, PyTorch distributed, CUDA, Slurm, SSH, Git, vi"
+			],
+			"fromDate": "July 2021",
+			"toDate": "Present"
+		},
+		{
 			"position": "Computer Vision",
 			"organization": "Brown Interactive 3D Vision & Learning Lab",
 			"organizationLink":"https://visual.cs.brown.edu/",
 			"organizationDesc":"",
 			"aboutWork": [
-				"Investigating deep learning based shape-from-silhouette 3D reconstruction to solve traditional concavity, occlusion challenges (PyTorch); building encoder-decoder for segmentation and occupancy modeling; leveraging geometry for self-supervision; advisor: Prof. Srinath Sridhar"
+				"Investigating novel integration of deep learning and shape-from-silhouette 3D visual hull reconstruction to solve traditional concavity and occlusion challenges; leveraging projective geometry for self-supervision; closely collaborating with 2 graduate students",
+				"Building, training encoder-decoder for segmentation and occupancy modeling with ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv",
+				"Advisor: Prof. Srinath Sridhar"
 			],
-			"fromDate": "Mar 2020",
+			"fromDate": "Mar 2021",
 			"toDate": "Present"
 		},
 		{
@@ -64,19 +80,21 @@
 			"organizationLink":"https://visual.cs.brown.edu/",
 			"organizationDesc":"",
 			"aboutWork": [
-				"Examining graph NNs (transformer, interaction net) for reinforcement learning and multimodal application; advisor: Prof. Chen Sun"
+				"Examining graph neural networks (transformer, interaction net) for reinforcement learning and multimodal application",
+				"Advisor: Prof. Chen Sun"
 			],
-			"fromDate": "Mar 2020",
+			"fromDate": "Mar 2021",
 			"toDate": "Present"
 		},
 		{
-			"position": "Deep Learning / Applied Mathematics",
-			"organization": "Brown Applied Math Directed Reading Program",
+			"position": "Physics Informed Neural Networks ",
+			"organization": "Brown Applied Math Honors Directed Reading Program",
 			"organizationLink":"https://www.dam.brown.edu/drp/",
 			"organizationDesc":"Code",
 			"organizationDescLink":"https://github.com/QiuhongAnnaWei/PINNs",
 			"aboutWork": [
-				"Analyzed and implemented Physics-Informed Neural Networks (deep NNs that encode physical laws) with TensorFlow and matplotlib to solve problems involving differential equations (inference relative error <0.3%); worked with Enrui Zhang under Prof. George Karniadakis"
+				"Analyzed and implemented deep neural networks that encode physical laws to solve forward and inverse problems involving differential equations; achieved relative error of <0.3%; generated visualizations and presented; used Python, TensorFlow, matplotlib",
+				"Worked with Enrui Zhang under Prof. George Karniadakis"
 			],
 			"fromDate": "Sep 2020",
 			"toDate": "Dec 2020"
@@ -94,13 +112,16 @@
 				"name": "Java"
 			},
 			{
-				"name": "Bash"
-			},
-			{
 				"name": "JavaScript/TypeScript"
 			},
 			{
+				"name": "Bash"
+			},
+			{
 				"name": "HTML"
+			},
+			{
+				"name": "CSS"
 			},
 			{
 				"name": "SQL"
@@ -150,13 +171,13 @@
 				"name": "Docker"
 			},
 			{
+				"name": "AWS"
+			},
+			{
 				"name": "GCP"
 			},
 			{
 				"name": "Alibaba Cloud"
-			},
-			{
-				"name": "AWS"
 			},
 			{
 				"name": "K8s"
@@ -182,7 +203,7 @@
 				"awardDetail": "Hack@Home Best Professional Hack Finalist"
 			},
 			{
-				"awardDetail": " Canadian Computing Comp. top 3"
+				"awardDetail": "Canadian Computing Comp. top 3%"
 			},
 			{
 				"awardDetail": "Rensselaer Medal ($100k scholarship)"
@@ -201,10 +222,10 @@
 		],
 		"Research":[
 			{
-				"awardDetail": "Undergrad Teaching and Research Award"
+				"awardDetail": "Undergradiate Teaching and Research Award"
 			},
 			{
-				"awardDetail": "2018 Intel ISEF World Finals 4th Place"
+				"awardDetail": "2018 Intel International Science and Engineering Fair World Finals 4th Place"
 			}
 		]
 	}
