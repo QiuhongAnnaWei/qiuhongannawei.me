@@ -68,7 +68,7 @@
 			"organizationDesc":"",
 			"aboutWork": [
 				"Investigating novel integration of deep learning and shape-from-silhouette 3D visual hull reconstruction to solve traditional concavity and occlusion challenges; leveraging projective geometry for self-supervision; closely collaborating with 2 graduate students",
-				"Building, training encoder-decoder for segmentation and occupancy modeling with ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv",
+				"Building encoder-decoder for segmentation and occupancy modeling with ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab",
 				"Advisor: Prof. Srinath Sridhar"
 			],
 			"fromDate": "Mar 2021",

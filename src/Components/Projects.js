@@ -31,7 +31,7 @@ class Projects extends Component {
                 </span>
               </div>
               <div className="subheading mb-0" href=""> ML-powered graphic design web app that streamlines stylesheet making </div>
-              <div className="subsubheading1 mb-0" href=""> React, Flask, Firebase Firestore, Heroku, Git </div>
+              <div className="subsubheading1 mb-0" href=""> React, Flask, Firebase Firestore, Heroku, Git, Jupyter </div>
     
               <ul className="mb-2">
                 <li> Collaborated with 3 others on ideating, prototyping, developing, testing, and deploying Gooey</li>
