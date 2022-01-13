@@ -10,20 +10,30 @@
 	},
 	"experience": [
 		{
+			"position": "INSIGHT Quantitative Trading",
+			"organization": "Jane Street",
+			"organizationDesc":"One of the world's largest market-makers",
+			"aboutWork": [
+				"Studied mathematical and financial topics such as probability, market structure, and arbitrage through a combination of short classroom lectures, group games, and mock trading sessions."
+			],
+			"fromDate": "Jan 2022",
+			"toDate": "Jan 2022"
+		},
+		{
 			"position": "VP of Technology",
 			"organization": "Keo Plus",
 			"organizationDesc":"Silicon Valley VC funded seed-stage EdTech start-up",
 			"aboutWork": [
-				"Leading dev team of 6 in building platform for class taking, streaming, marketing; setting strategy and driving product development",
-				"Building 100+ REST API for web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; storing data in MongoDB for flexibility and scalability; streamlining quality assurance and user acceptance tests with Google Cloud Run",
-				"Deploying with Alibaba Cloud, Docker, Kubernetes; managing servers, domains, infrastructure, file storage, content distribution, load balance, SMS/Email with Alibaba Cloud, AWS; establishing product management protocols and managing Agile practices with Git, Jira",
+				"Led dev team of 6 to build platform for class taking, streaming, marketing; setting strategy and driving product development",
+				"Built 100+ REST API for web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; stored data in MongoDB for flexibility and scalability; streamlined quality assurance and user acceptance tests with Google Cloud Run",
+				"Deployed with Alibaba Cloud, Docker, Kubernetes; managed servers, domains, infrastructure, file storage, content distribution, load balance, SMS/Email with Alibaba Cloud, AWS; established product management protocols and managing Agile practices with Git, Jira",
 				"Conducted full stack development of features critical to local target clients such as phone auth, offline quiz, third party account linkage"
 			],
 			"fromDate": "Nov 2020",
-			"toDate": "Present"
+			"toDate": "Sep 2021"
 		},
 		{
-			"position": "Digital Product Management and Data Intern ",
+			"position": "Digital Product Management and Data Intern",
 			"organization": "Novartis ",
 			"organizationDesc":"Top 5 pharma globally",
 			"aboutWork": [
@@ -50,18 +60,6 @@
 	],
 	"research":[
 		{
-			"position": "3D Modeling and Synthesis",
-			"organization": "Chinese University of Hong Kong - HK University of Science and Technology",
-			"organizationLink":"",
-			"organizationDesc":"",
-			"aboutWork": [
-				"Researching novel view synthesis and human rendering from sparse input images with implicit neural fields; aiming for CVPR submission",
-				"Developing across servers and integrating diverse packages (e.g. OpenPose, SMPL) with conda, PyTorch distributed, CUDA, Slurm, SSH, Git, vi"
-			],
-			"fromDate": "July 2021",
-			"toDate": "Present"
-		},
-		{
 			"position": "Computer Vision",
 			"organization": "Brown Interactive 3D Vision & Learning Lab",
 			"organizationLink":"https://visual.cs.brown.edu/",
@@ -73,6 +71,18 @@
 			],
 			"fromDate": "Mar 2021",
 			"toDate": "Present"
+		},
+		{
+			"position": "3D Modeling and Synthesis",
+			"organization": "Chinese University of Hong Kong - HK University of Science and Technology",
+			"organizationLink":"",
+			"organizationDesc":"",
+			"aboutWork": [
+				"Researched novel view synthesis and human rendering from sparse input images with implicit neural fields",
+				"Developed across servers and integrated diverse packages (e.g. OpenPose, SMPL) with conda, PyTorch distributed, CUDA, Slurm, SSH, Git, vi"
+			],
+			"fromDate": "July 2021",
+			"toDate": "Oct 2021"
 		},
 		{
 			"position": "Vision-Language Multimodal Machine Learning",
@@ -115,6 +125,9 @@
 				"name": "JavaScript/TypeScript"
 			},
 			{
+				"name": "C"
+			},
+			{
 				"name": "Bash"
 			},
 			{
@@ -125,6 +138,9 @@
 			},
 			{
 				"name": "SQL"
+			},
+			{
+				"name": "Assembly"
 			},
 			{
 				"name": "PHP"
@@ -196,6 +212,9 @@
 	},
 	"awards": {
 		"CS":[
+			{
+				"awardDetail": "Anita Borg Institute Grace Hopper Scholarship"
+			},
 			{
 				"awardDetail": "HackDuke Best Environment Hack"
 			},

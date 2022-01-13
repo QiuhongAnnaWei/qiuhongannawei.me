@@ -25,8 +25,9 @@ class Education extends Component {
               
               <ul className="mb-2">
                 <li> <span className="subsubheading2"> GPA </span>: 4.00/4.00 </li>
-                <li> <span className="subsubheading2"> Relevant Coursework </span>: Software Engineering, Algorithms, Probability and Statistics, Artificial Intelligence, Objected Oriented Programming, Computer Systems, Linear Algebra, Discrete Math and Analysis, Differential Equations, Calculus, Abstract Algebra </li>
+                <li> <span className="subsubheading2"> Relevant Coursework </span>: Algorithms, Objected Oriented Programming, Software Engineering, Computer Systems, Computer Vision, Decision Making, Cryptography and Security, Probability, Statistics, Discrete Math, Differential Equations, Calculus, Analysis, Abstract Algebra, Financial Accounting </li>
                 <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the department-appointed Meta Undergraduate Research Assistants at Brown Computer Science, for which I head efforts to facilitate undergraduate research, specifically hosting events and serving as liaison between faculty and 1200 CS students </li>
+                <li> <span className="subsubheading2"> Teaching </span>: I am a teaching assistant for graduate-level course on Advanced 3D Robot Perception. </li>
                 <li> <span className="subsubheading2"> Activities </span>: Women in Computer Science (WiCS), Socially Responsible Investment Fund (SRIF), Brown Science Olympiad Event Coordinator, Daebak Dance, Chinese Drama Club </li>
               </ul>
               </div>

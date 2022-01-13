@@ -6,6 +6,8 @@ import gooey1 from '../Assets/gooey1.png';
 import toolkit1 from '../Assets/toolkit1.png';
 import zoom1 from '../Assets/zoom1.jpg';
 import name1 from '../Assets/name1.png';
+import marl from '../Assets/marl.png';
+
 
 class Projects extends Component {
   constructor(props) {
@@ -39,6 +41,27 @@ class Projects extends Component {
                 <li> Integrated algorithm, user auth, database logic with a modular, extensible frontend; wrote relevant unit tests that achieved 92% coverage </li>
               </ul>
               <img height="300px" src={gooey1} alt=""></img>
+            </div>
+          </div>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <div> 
+                <span className="heading mb-0 mr-2"> Multi-Agent Reinforcement Learning </span>
+                <span className="social-icons-small"> 
+                  <a title="Source Code" className="mr-2" href="https://github.com/QiuhongAnnaWei/MultiAgent-PositronicLizards" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a> 
+                  {/* <a title="Website" className="mr-2" href="https://powerful-forest-21960.herokuapp.com/" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a> 
+                  <a title="Algorithm Description" className="mr-2" href="https://docs.google.com/document/d/1ts_QSpuJDQqgbBVtceSGiOymGBzZEkaK5yIBBx2hbGw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>  */}
+                </span>
+              </div>
+              <div className="subheading mb-0" href=""> Investigation of training methodology in multi-agent non-zero-sum games</div>
+              <div className="subsubheading1 mb-0" href=""> Ray, PettingZoo, TensorFlow, Tune, SuperSuit </div>
+    
+              <ul className="mb-2">
+                <li> Collaborated with 4 others in exploring the unconventional setting of adversarial multi-agent teams in Partially Observable Stochastic Games </li>
+                <li> Designed game environments and training schemes, trained policies with Proximal Policy Optimization, and analyzed experiment results</li>
+              </ul>
+              <img height="300px" src={marl} alt=""></img>
             </div>
           </div>
 
