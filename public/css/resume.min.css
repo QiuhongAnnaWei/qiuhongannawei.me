@@ -62,3 +62,15 @@ section.resume-section{min-height:100vh}
 section.resume-section .resume-item .resume-date{min-width:18rem}
 }@media (min-width:992px)
 {section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
+
+/* For putting image and text side by side */
+/* <div class="flexcontainer">  <ul></ul> <img/>  </div> */
+.flexcontainer {
+    display: flex;
+    /* align-items: center; */
+  }
+  @media (max-width: 500px) {
+    .flexcontainer {
+      display: block;
+    }
+  }

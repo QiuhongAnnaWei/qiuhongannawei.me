@@ -10,6 +10,18 @@
 	},
 	"experience": [
 		{
+
+			"position": "Software Engineering",
+			"organization": "Meta Reality Labs",
+			"organizationDesc":"",
+			"aboutWork": [
+				"Helped improve critical next-generation AR/VR calling experience by decoupling media streams for realistic hologram representation, which enabled optimization of compression efficiency and visual quality under limited network condition",
+				"Worked with particularly complex e2e codebase (C, C++, C#) involving data control, Unity-based processing and visualization, cross-platform calling logic, real time communication, machine learning reconstruction; went beyond original project, received highest rating"
+			],
+			"fromDate": "May 2022",
+			"toDate": "Aug 2022"
+		},
+		{
 			"position": "INSIGHT Quantitative Trading",
 			"organization": "Jane Street",
 			"organizationDesc":"One of the world's largest market-makers",
@@ -35,7 +47,7 @@
 		{
 			"position": "Digital Product Management and Data Intern",
 			"organization": "Novartis ",
-			"organizationDesc":"Top 5 pharma globally",
+			"organizationDesc":"",
 			"aboutWork": [
 				"Co-managed a health software (170k users) with 10 others",
 				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition API in collaboration with Tencent AI Lab, significantly improved elderly users’ experience",
@@ -97,7 +109,7 @@
 			"toDate": "Present"
 		},
 		{
-			"position": "Physics Informed Neural Networks ",
+			"position": "Physics Informed Neural Networks",
 			"organization": "Brown Applied Math Honors Directed Reading Program",
 			"organizationLink":"https://www.dam.brown.edu/drp/",
 			"organizationDesc":"Code",
@@ -241,7 +253,7 @@
 		],
 		"Research":[
 			{
-				"awardDetail": "Undergradiate Teaching and Research Award"
+				"awardDetail": "Undergraduate Teaching and Research Award"
 			},
 			{
 				"awardDetail": "2018 Intel International Science and Engineering Fair World Finals 4th Place"

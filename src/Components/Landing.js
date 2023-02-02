@@ -16,21 +16,23 @@ class Landing extends Component {
             {this.landingData.firstName} {this.landingData.lastName}
           </h1>
 
-          <div className="subheading mb-5">
-            <a className = "text-primary" href="mailto:qiuhong.anna.wei@gmail.com">qiuhong.anna.wei@gmail.com</a>
+          <div className="mt-2 mb-5">
+            <span className = "subsubheading1">qiuhong (dot) anna (dot) wei (at) gmail (dot) com</span>  
+            {/*  href="mailto:qiuhong.anna.wei@gmail.com" */}
             <span> | </span>
-            <a className = "text-primary" href="mailto:qiuhong_wei@brown.edu"> qiuhong_wei@brown.edu </a>
+            <span className = "subsubheading1"> qiuhong_wei (at) brown (dot) edu </span>
+            {/*  href="mailto:qiuhong_wei@brown.edu" */}
           </div>
 
           {/* <p className="lead mb-5">{this.landingData.bio}</p> */}
           <p className="lead mb-5">
-            Hi! My name is Anna, and I am an engineer and researcher passionate about solving problems and creating impact through technology. 
+            I am a Computer Science-Mathematics student at <a href='https://www.brown.edu/' target="_blank" rel="noopener noreferrer">Brown University</a> and
+            a researcher in the <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Brown Visual Computing group</a>.
+            In general, I am passionate about solving challenging problems and creating impact through technology.
             <br/><br/>
-            I am currently a Computer Science-Applied Math student at <a href='https://www.brown.edu/' target="_blank" rel="noopener noreferrer">Brown University</a> and
-            a researcher in the <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Brown Visual Computing group</a>. 
-            Outside of class, I enjoy dancing, backpacking, as well as creative writing.
+            Outside of CS and math, I enjoy dancing, creative writing, music, and exploring nature.
             <br/><br/>
-            Feel free to send me an email or reach out on LinkedIn if you'd like to chat!
+            Feel free to reach out to me through email or on LinkedIn if you'd like to chat!
           </p>
           
           <div className="social-icons">

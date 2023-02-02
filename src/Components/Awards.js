@@ -16,6 +16,17 @@ class Awards extends Component {
         <div className="w-100">
           <h2 className="mb-5">Awards</h2>
 
+          <div className="subheading mb-2">Research</div>
+          <ul className="fa-ul mb-5">
+            {
+              this.awards.Research.map((data, index) => (
+                <li key={index}>
+                  <FontAwesomeIcon icon={faAward} color="#ffda85" /> <span className="ml-2"> {data.awardDetail} </span>
+                </li>
+              ))
+            }
+          </ul>
+
           <div className="subheading mb-2">Computer Science</div>
           <ul className="fa-ul mb-5">
             {
@@ -38,16 +49,6 @@ class Awards extends Component {
             }
           </ul>
 
-          <div className="subheading mb-2">Research</div>
-          <ul className="fa-ul mb-0">
-            {
-              this.awards.Research.map((data, index) => (
-                <li key={index}>
-                  <FontAwesomeIcon icon={faAward} color="#ffda85" /> <span className="ml-2"> {data.awardDetail} </span>
-                </li>
-              ))
-            }
-          </ul>
         </div>
       </section>
     );

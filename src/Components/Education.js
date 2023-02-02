@@ -20,15 +20,17 @@ class Education extends Component {
                     <span className="resume-date text-md-right subsubheading2 right">Expected May 2024</span>
                   </div>
                   <div> 
-                    <span className="subheading mb-3">BS: Computer Science-Applied Math, MS (concurrent): Computer Science </span>
+                    <span className="subheading mb-3">BS: Computer Science-Mathematics, MS (concurrent): Computer Science </span>
                   </div> 
               
               <ul className="mb-2">
                 <li> <span className="subsubheading2"> GPA </span>: 4.00/4.00 </li>
-                <li> <span className="subsubheading2"> Relevant Coursework </span>: Algorithms, Objected Oriented Programming, Software Engineering, Computer Systems, Computer Vision, Decision Making, Cryptography and Security, Probability, Statistics, Discrete Math, Differential Equations, Calculus, Analysis, Abstract Algebra, Financial Accounting </li>
-                <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the department-appointed Meta Undergraduate Research Assistants at Brown Computer Science, for which I head efforts to facilitate undergraduate research, specifically hosting events and serving as liaison between faculty and 1200 CS students </li>
-                <li> <span className="subsubheading2"> Teaching </span>: I am a teaching assistant for graduate-level course on Advanced 3D Robot Perception. </li>
-                <li> <span className="subsubheading2"> Activities </span>: Women in Computer Science (WiCS), Socially Responsible Investment Fund (SRIF), Brown Science Olympiad Event Coordinator, Daebak Dance, Chinese Drama Club </li>
+                <li> <span className="subsubheading2"> Relevant Coursework </span>: 
+                Data Structures, Algorithms, Computer Vision, Computer Graphics, Artificial Intelligence, Cryptography and Security, Computer Systems, Operating Systems, Software Engineering, Decision Making, Probability, Statistics, Discrete Math, Differential Equations, Prescriptive Analytics, Abstract Algebra, Number Theory, Combinatorial Theory
+                </li>
+                <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the department-appointed Meta Undergraduate Research Assistants at Brown Computer Science, for which I head efforts to facilitate undergraduate research. Specifically, I host events and serve as liaison between faculty and ~1200 CS students. </li>
+                <li> <span className="subsubheading2"> Teaching </span>: I am a teaching assistant for Applied Cryptograph and graduate-level course on Advanced 3D Robot Perception. </li>
+                <li> <span className="subsubheading2"> Activities </span>: Women in Computer Science (WiCS), Socially Responsible Investment Fund (SRIF), Brown Science Olympiad Event Coordinator, Daebak Dance </li>
               </ul>
               </div>
           </div>
@@ -46,7 +48,7 @@ class Education extends Component {
               <ul className="mb-2">
                 <li> <span className="subsubheading2"> GPA </span>: 3.99/4.00 </li>
                 <li> <span className="subsubheading2"> Relevant Coursework </span>: Multivariable Calculus, Linear Algebra, Computer Science, Statistics </li>
-                <li> <span className="subsubheading2"> Leadership & Service </span>: Varsity Dance captain, Student Council Vice President, Chinese migrant children dance education program founder and 6-year volunteer dance teacher, Math Team founding member </li>
+                <li> <span className="subsubheading2"> Leadership & Service </span>: Varsity Dance captain, Student Council Vice President, Chinese migrant children dance education program founder and 6-year volunteer dance teacher, Math Team founding member, Model United Nations Secretary General </li>
               </ul>
               </div>
           </div>
