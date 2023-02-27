@@ -29,7 +29,7 @@ class Education extends Component {
                 Data Structures, Algorithms, Computer Vision, Computer Graphics, Artificial Intelligence, Cryptography and Security, Computer Systems, Operating Systems, Software Engineering, Decision Making, Probability, Statistics, Discrete Math, Differential Equations, Prescriptive Analytics, Abstract Algebra, Number Theory, Combinatorial Theory
                 </li>
                 <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the department-appointed Meta Undergraduate Research Assistants at Brown Computer Science, for which I head efforts to facilitate undergraduate research. Specifically, I host events and serve as liaison between faculty and ~1200 CS students. </li>
-                <li> <span className="subsubheading2"> Teaching </span>: I am a teaching assistant for Applied Cryptograph and graduate-level course on Advanced 3D Robot Perception. </li>
+                <li> <span className="subsubheading2"> Teaching </span>: I am a teaching assistant for Applied Cryptography and graduate-level course on Advanced 3D Robot Perception. </li>
                 <li> <span className="subsubheading2"> Activities </span>: Women in Computer Science (WiCS), Socially Responsible Investment Fund (SRIF), Brown Science Olympiad Event Coordinator, Daebak Dance </li>
               </ul>
               </div>
