@@ -6,6 +6,11 @@ import { faPager, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 import legonet1 from '../Assets/legonet1.png';
 import marl from '../Assets/marl.png';
 import ppml2 from '../Assets/ppml2.png';
+import dvh from '../Assets/dvh.png';
+import PINN1 from '../Assets/PINN1.png';
+import PINN2 from '../Assets/PINN2.png';
+
+
 
 class Research extends Component {
   constructor(props) {
@@ -27,16 +32,20 @@ class Research extends Component {
                 <span className="social-icons-small"> 
                   <a title="Website" className="mr-2 mt-2 top" href="https://ivl.cs.brown.edu/#/projects/lego-net" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a> 
                   <a title="Paper" className="mr-2 mt-2" href="https://arxiv.org/abs/2301.09629" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
+                  <a title="Code" className="mr-2 top" href="https://github.com/QiuhongAnnaWei/LEGO-Net/" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a>
                 </span>
               </div>
               <div> 
                 Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas <br/>
-                <span className="resume-date subsubheading2"> Arxiv 2023 </span>
+                <span className="resume-date subsubheading2"> CVPR 2023 </span>
               </div>
 
               <ul className=" mb-0">
                 <li> LEGO-Net is a data-driven transformer-based iterative method for LEarning reGular rearrangement of Objects in messy rooms. </li>
-                <li>LEGO-Net is partly inspired by diffusion models--it starts with an initial messy state and iteratively “denoises” the position and orientation of objects to a regular state while reducing distance traveled.</li>
+                <li>Partly inspired by diffusion models, LEGO-Net starts with an initial messy state and iteratively “denoises” the position and orientation of objects to a regular state while reducing distance traveled.</li>
+                <li>I won the <a href="https://awards.cs.brown.edu/2023/03/20/anh-truong-and-qiuhong-wei-win-randy-f-pausch-computer-science-undergraduate-summer-research-award/" target="_blank" rel="noopener noreferrer"> 2023 Randy F. Pausch Computer Science Summer Research Award</a> to continue my work!
+                </li>
+
               </ul>
               <img className="mt-2 mb-2"  height="300px" src={legonet1} alt=""/>
 
@@ -59,6 +68,7 @@ class Research extends Component {
                 <li> Built encoder-decoder for segmentation and occupancy modeling with ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab </li>
                 {/* Integrated deep learning with shape-from-silhouette 3D reconstruction using ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab */}
                 {/* Investigating multi-object canonical arrangement, particularly a data-driven transformer-based iterative method partly inspired by diffusion models (LEGO-Net), which has shown to reliably rearrange complex scenes and outperform other methods. */}
+                <img className="mt-0"  height="260px" src={dvh} alt=""/>
               </ul>
             </div>
           </div>
@@ -69,7 +79,8 @@ class Research extends Component {
               <div> 
                 <span className="heading mb-0 mr-2"> Privacy-Perserving Machine Learning </span>
                 <span className="social-icons-small"> 
-                  <a title="Paper" className="mr-2 mt-2" href=" https://drive.google.com/file/d/1kAor9nd0r4n1dNIKm11W6Zd3EoD-Z7Kl/view?usp=sharing" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
+                  <a title="Paper" className="mr-2 mt-2" href="https://cs.brown.edu/people/ycheng79/csci2952qf22/Top_Project_5_Anna%20Wei_Andy%20Liu_Privacy-Preserving%20Machine%20Learning.pdf" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
+                  {/* https://drive.google.com/file/d/1kAor9nd0r4n1dNIKm11W6Zd3EoD-Z7Kl/view?usp=sharing */}
                 </span>
                 <span className="resume-date text-md-right subsubheading2 right"> 2022 </span>
               </div>
@@ -78,7 +89,8 @@ class Research extends Component {
               <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Anna Lysyanskaya, Prof. Yu Cheng </a> <br/>
 
               <ul className=" mb-0">
-                <li> To compute mean of model updates from multiple clients in a secure manner, while maintaining efficiency and enabling robustness to client drop-outs, adapted, implemented, analyzed, and conducted experiements with the secure aggregation protocol proposed by Bonawitz et al. that leverages secure multiparty computation to advance privacy-preserving machine learning.</li>
+                <li> Improved, implemented, analyzed, and conducted experiements with the secure aggregation protocol proposed by Bonawitz et al. that leverages secure multiparty computation to advance privacy-preserving machine learning, in order to compute mean of model updates from multiple clients in a secure manner, while maintaining efficiency and enabling robustness to client drop-outs.</li>
+                <li> Top project and top reviewer for <a href="https://cs.brown.edu/people/ycheng79/csci2952qf22.html" target="_blank" rel="noopener noreferrer"> CSCI 2952-Q: Robust Algorithms for Machine Learning</a>. </li>
               </ul>
               <img className="mt-2 mb-2"  height="350px" src={ppml2} alt=""/>
             </div>
@@ -104,7 +116,7 @@ class Research extends Component {
                 {/* trained policies with Proximal Policy Optimization */}
                 {/* Ray, PettingZoo, TensorFlow, Tune, SuperSuit */}
               </ul> 
-              <img className="mt-1" height="300px" src={marl} alt=""/>
+              <img className="mt-3" height="300px" src={marl} alt=""/>
               {/* </div> */}
 
             </div>
@@ -133,6 +145,7 @@ class Research extends Component {
               <div> 
                 <span className="heading mb-0 mr-2"> Physics Informed Neural Networks </span>
                 <span className="social-icons-small"> 
+                  <a title="Paper" className="mr-2 mt-2" href="https://drive.google.com/file/d/1Vg-x73DVXiITuXdiAB1dLg7KoxPY8Tq3/view?usp=sharing" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
                   <a title="Source Code" className="mr-2 top" href="https://github.com/QiuhongAnnaWei/PINNs" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a> 
                 </span>
                 <span className="resume-date text-md-right subsubheading2 right"> Sep 2020 - Dec 2020 </span>
@@ -144,6 +157,9 @@ class Research extends Component {
 
               <ul className=" mb-0">
                 <li> Analyzed and implemented deep neural networks that encode physical laws to solve forward and inverse problems involving differential equations; achieved relative error of 0.3 %; generated visualizations and presented; used Python, TensorFlow, matplotlib</li>
+                <img className="mt-3" height="260px" src={PINN1} alt=""/>
+                <img className="mt-3" height="270px" src={PINN2} alt=""/>
+
               </ul>
             </div>
           </div>
