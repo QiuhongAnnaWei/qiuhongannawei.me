@@ -9,6 +9,7 @@ import name1 from '../Assets/name1.png';
 import weenixfilesystem from '../Assets/weenixfilesystem.png';
 import Crepusculum1 from '../Assets/Crepusculum1.png';
 import Crepusculum2 from '../Assets/Crepusculum2.png';
+import cpu from '../Assets/cpu.png';
 
 
 
@@ -47,6 +48,22 @@ class Projects extends Component {
             </div>
           </div>
 
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <div> 
+                <span className="heading mt-3 mb-2 mr-2"> Single-Cycle Processor  </span>
+                <span className="social-icons-small"> 
+                </span>
+              </div>
+              <div className="subheading mb-0" href=""> Self-designed processor with essential instruction set </div>
+              <div className="subsubheading1 mb-0" href=""> Verilog, Assembly, Machine Code, Quartus, iVerilog Simulation, ModelSim </div>
+              <ul className="mb-2">
+                <li> Designed, implemented, booted, and optimized a single-cycle RISC-V processor on Cyclone V FPGA, with components including ROM, RAM, clocks with phase-locked loop, register files, program counter, ALU, datapath. Achieved clock rate of 64 GHz. </li>
+                <li> Supports arithmetic instructions (add, addi, sub, mul, slli), logical instructions (and, or), memory instructions (lw, sw), conditional branching instructions (beq, bne), and procedure call instructions (jal, jalr). </li>
+              </ul>
+              <img className="mt-1 mb-2" height="350px" src={cpu} alt=""></img>
+            </div>
+          </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -79,6 +96,7 @@ class Projects extends Component {
                 </span>
               </div>
               <div className="subheading mb-0" href=""> A real-time city generator </div>
+              <div className="subsubheading1 mb-0" href=""> GLSL, React, Three.js </div>
               <ul className="mb-2">
                 <li> Generated and rendered city in real time with changing time, evolving sky, and moving cars.</li>
                 <li> See the website for more! </li>

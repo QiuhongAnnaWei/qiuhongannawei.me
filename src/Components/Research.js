@@ -37,7 +37,7 @@ class Research extends Component {
               </div>
               <div> 
                 Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas <br/>
-                <span className="resume-date subsubheading2"> CVPR 2023 </span>
+                <span className="resume-date subsubheading2"> <strong> CVPR 2023 </strong> </span>
               </div>
 
               <ul className=" mb-0">
@@ -47,7 +47,7 @@ class Research extends Component {
                 </li>
 
               </ul>
-              <img className="mt-2 mb-2"  height="300px" src={legonet1} alt=""/>
+              <img className="mt-3 mb-2"  height="300px" src={legonet1} alt=""/>
 
             </div>
           </div>
@@ -89,8 +89,9 @@ class Research extends Component {
               <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Anna Lysyanskaya, Prof. Yu Cheng </a> <br/>
 
               <ul className=" mb-0">
-                <li> Improved, implemented, analyzed, and conducted experiements with the secure aggregation protocol proposed by Bonawitz et al. that leverages secure multiparty computation to advance privacy-preserving machine learning, in order to compute mean of model updates from multiple clients in a secure manner, while maintaining efficiency and enabling robustness to client drop-outs.</li>
-                <li> Top project and top reviewer for <a href="https://cs.brown.edu/people/ycheng79/csci2952qf22.html" target="_blank" rel="noopener noreferrer"> CSCI 2952-Q: Robust Algorithms for Machine Learning</a>. </li>
+                <li> Improved, implemented, analyzed, and conducted experiements with the secure aggregation protocol proposed by Bonawitz et al. that leverages secure multiparty computation to advance privacy-preserving machine learning. </li>
+                <li>Specific application involves computing mean of machine learning model updates from multiple clients in a secure manner, while maintaining efficiency and ensuring robustness to client drop-outs.</li>
+                <li> Selected as top project and top reviewer for <a href="https://cs.brown.edu/people/ycheng79/csci2952qf22.html" target="_blank" rel="noopener noreferrer"> CSCI 2952-Q: Robust Algorithms for Machine Learning</a>. </li>
               </ul>
               <img className="mt-2 mb-2"  height="350px" src={ppml2} alt=""/>
             </div>
@@ -107,7 +108,7 @@ class Research extends Component {
                 <span className="resume-date text-md-right subsubheading2 right"> 2021 </span>
               </div>
 
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Michael Littman, Kaiyu Zheng </a> <br/>
+              <a className="subsubheading1 mt-1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Michael Littman, Kaiyu Zheng </a> <br/>
 
               {/* <div class="flexcontainer">  */} {/* for putting it side by side */}
               <ul className="mb-0">
