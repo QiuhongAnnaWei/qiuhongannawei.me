@@ -58,7 +58,7 @@ class Projects extends Component {
               <div className="subheading mb-0" href=""> Self-designed processor with essential instruction set </div>
               <div className="subsubheading1 mb-0" href=""> Verilog, Assembly, Machine Code, Quartus, iVerilog Simulation, ModelSim </div>
               <ul className="mb-2">
-                <li> Designed, implemented, booted, and optimized a single-cycle RISC-V processor on Cyclone V FPGA, with components including ROM, RAM, clocks with phase-locked loop, register files, program counter, ALU, datapath. Achieved clock rate of 64 GHz. </li>
+                <li> Designed, implemented, booted, and optimized a single-cycle RISC-V processor on Cyclone V FPGA, with components including ROM, RAM, clocks with phase-locked loop, register files, program counter, ALU, datapath. Achieved clock rate of 64 MHz. </li>
                 <li> Supports arithmetic instructions (add, addi, sub, mul, slli), logical instructions (and, or), memory instructions (lw, sw), conditional branching instructions (beq, bne), and procedure call instructions (jal, jalr). </li>
               </ul>
               <img className="mt-1 mb-2" height="350px" src={cpu} alt=""></img>
