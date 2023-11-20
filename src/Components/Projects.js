@@ -38,11 +38,11 @@ class Projects extends Component {
               {/* <div className="subsubheading1 mb-0" href=""> React, Flask, Firebase Firestore, Heroku, Git, Jupyter </div> */}
               Implemented in C the following:
               <ul className="mb-2">
-                <li> Threads, processes, synchronization primitives </li>
-                <li> Device drivers for terminals, disks, memory devices </li>
-                <li> Virtual File System (polymorphic file system support) </li>
-                <li> System V File System (a Unix file system) </li>
-                <li> Virtual Memory which enables running user-level code (VM maps, page fault handling, memory management via anonymous objects and shadow objects, system calls including fork) </li>
+                <li> Threads, processes, synchronization primitives. </li>
+                <li> Device drivers for terminals, disks, memory devices. </li>
+                <li> Virtual File System (polymorphic file system support). </li>
+                <li> System V File System (a Unix file system). </li>
+                <li> Virtual Memory which enables running user-level code (VM maps, page fault handling, memory management via anonymous objects and shadow objects, system calls including fork). </li>
               </ul>
               <img className="mt-1 mb-2" height="280px" src={weenixfilesystem} alt=""></img>
             </div>
@@ -51,7 +51,7 @@ class Projects extends Component {
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <div> 
-                <span className="heading mt-3 mb-2 mr-2"> Single-Cycle Processor  </span>
+                <span className="heading mt-3 mb-2 mr-2"> Single-Cycle Processor </span>
                 <span className="social-icons-small"> 
                 </span>
               </div>
@@ -79,9 +79,9 @@ class Projects extends Component {
               <div className="subsubheading1 mb-0" href=""> React, Flask, Firebase Firestore, Heroku, Git, Jupyter </div>
     
               <ul className="mb-2">
-                <li> Collaborated with 3 others on ideating, prototyping, developing, testing, and deploying Gooey</li>
-                <li> Individually invented backend Python algorithm that gives stylesheet palette recommendations based on user preference and color theory by leveraging user-specific soft clustering (Gaussian mixture model) and self-developed heuristics such as hue-shift index </li>
-                <li> Integrated algorithm, user auth, database logic with a modular, extensible frontend; wrote relevant unit tests that achieved 92% coverage </li>
+                <li> Collaborated with 3 others on ideating, prototyping, developing, testing, and deploying Gooey. </li>
+                <li> Individually invented backend Python algorithm that gives stylesheet palette recommendations based on user preference and color theory by leveraging user-specific soft clustering (Gaussian mixture model) and self-developed heuristics such as hue-shift index. </li>
+                <li> Integrated algorithm, user auth, database logic with a modular, extensible frontend; wrote relevant unit tests that achieved 92% coverage. </li>
               </ul>
               <img className="mt-1 mb-2" height="300px" src={gooey1} alt=""></img>
             </div>
@@ -115,8 +115,8 @@ class Projects extends Component {
               <div className="subsubheading1 mb-0" href=""> TensorFlow, Google Cloud, numpy, skimage, scipy, sklearn, matplotlib</div>
     
               <ul className="mb-2">
-                <li> Implemented feature matching (Harris Corner Detector + SIFT feature), camera calibration (using Random Sample Consensus method), scene classification (Bag of Words model + linear SVM), hybrid image </li>
-                <li> Designed, trained, tested classification CNN (accuracy &gt 86%) and CycleGAN for object transfiguration </li>
+                <li> Implemented feature matching (Harris Corner Detector + SIFT feature), camera calibration (using Random Sample Consensus method), scene classification (Bag of Words model + linear SVM), hybrid image. </li>
+                <li> Designed, trained, tested classification CNN (accuracy &gt 86%) and CycleGAN for object transfiguration. </li>
               </ul>
               <img className="mt-1 mb-2" height="250px" src={toolkit1} alt=""></img>
             </div>
@@ -136,8 +136,8 @@ class Projects extends Component {
               <div className="subsubheading1 mb-0" href=""> Vue.js, Bootstrap, Heroku </div>
     
               <ul className="mb-2">
-                <li> Implemented multi-language speech-to-text, rapid NLP keyword extraction, streaming-site embedding, and real-time flexible styling </li>
-                <li> Hack@Home Best Web-Based Application and Best Professional Hack Finalist </li>
+                <li> Implemented multi-language speech-to-text, rapid NLP keyword extraction, streaming-site embedding, and real-time flexible styling. </li>
+                <li> Hack@Home Best Web-Based Application and Best Professional Hack Finalist. </li>
               </ul>
               <img className="mt-1 mb-0" height="300px" src={zoom1} alt=""></img>
             </div>
@@ -155,8 +155,8 @@ class Projects extends Component {
               <div className="subsubheading1 mb-0" href=""> Google Colab, Python, Flask, HTML, CSS, JavaScript </div>
     
               <ul className="mb-2">
-                <li> Trained a recurrent neural network with top US baby names from 2015-2019, and developed the capacity to generate names with user-input prefix and desired uniqueness level (implemented with model temperature) </li>
-                <li> Created algorithm to output names of similar pronunciation as specified word by making use of the Soundex algorithm, cosine similarity, and bag of words model </li>
+                <li> Trained a recurrent neural network with top US baby names from 2015-2019, and developed the capacity to generate names with user-input prefix and desired uniqueness level (implemented with model temperature). </li>
+                <li> Created algorithm to output names of similar pronunciation as specified word by making use of the Soundex algorithm, cosine similarity, and bag of words model. </li>
               </ul>
               <img className="mt-1" height="250px" src={name1} alt=""></img>
             </div>

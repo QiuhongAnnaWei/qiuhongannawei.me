@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faGoogle, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 class Landing extends Component {
   constructor(props) {
@@ -36,8 +36,9 @@ class Landing extends Component {
           </p>
           
           <div className="social-icons">
-            <a href={this.landingData.linkedin} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> </a>
             <a href={this.landingData.github} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faGithub} /> </a>
+            <a href={this.landingData.googleScholar} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faGoogle} /> </a>
+            <a href={this.landingData.linkedin} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> </a>
           </div>
 
         </div>

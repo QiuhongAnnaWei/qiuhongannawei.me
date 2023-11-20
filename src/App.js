@@ -52,6 +52,7 @@ class App extends Component {
         {/* <Interests interests={this.state.interests} /> */}
         {/* <hr className="m-0" /> */}
         {/* <Skills skills={this.state.skills} /> */}
+        {/* Talks, SERVICE & LEADERSHIP  */}
         </div>
       </div>
     );

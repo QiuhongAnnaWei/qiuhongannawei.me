@@ -5,8 +5,9 @@
 		"phoneNumber": "",
 		"email": "qiuhong.anna.wei@gmail.com",
 		"schoolemail":"qiuhong_wei@brown.edu",
-		"linkedin": "http://linkedin.com/in/qiuhong-anna-wei",
-		"github": "http://github.com/QiuhongAnnaWei"
+		"github": "http://github.com/QiuhongAnnaWei",
+		"googleScholar": "https://scholar.google.com/citations?user=djp_PiUAAAAJ",
+		"linkedin": "http://linkedin.com/in/qiuhong-anna-wei"
 	},
 	"experience": [
 		{
@@ -15,8 +16,8 @@
 			"organization": "Meta Reality Labs",
 			"organizationDesc":"",
 			"aboutWork": [
-				"Helped improve critical next-generation AR/VR calling experience by decoupling media streams for realistic hologram representation, which enabled optimization of compression efficiency and visual quality under limited network condition",
-				"Worked with particularly complex e2e codebase (C, C++, C#) involving data control, Unity-based processing and visualization, cross-platform calling logic, real time communication, machine learning reconstruction; went beyond original project, received highest rating"
+				"Helped improve critical next-generation AR/VR calling experience by decoupling media streams for realistic hologram representation, which enabled optimization of compression efficiency and visual quality under limited network condition.",
+				"Worked with particularly complex e2e codebase (C, C++, C#) involving data control, Unity-based processing and visualization, cross-platform calling logic, real time communication, machine learning reconstruction; went beyond original project, received highest rating."
 			],
 			"fromDate": "May 2022",
 			"toDate": "Aug 2022"
@@ -36,10 +37,10 @@
 			"organization": "Keo Plus",
 			"organizationDesc":"Silicon Valley VC funded seed-stage EdTech start-up",
 			"aboutWork": [
-				"Led dev team of 6 to build platform for class taking, streaming, marketing; setting strategy and driving product development",
-				"Built 100+ REST API for web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; stored data in MongoDB for flexibility and scalability; streamlined quality assurance and user acceptance tests with Google Cloud Run",
-				"Deployed with Alibaba Cloud, Docker, Kubernetes; managed servers, domains, infrastructure, file storage, content distribution, load balance, SMS/Email with Alibaba Cloud, AWS; established product management protocols and managing Agile practices with Git, Jira",
-				"Conducted full stack development of features critical to local target clients such as phone auth, offline quiz, third party account linkage"
+				"Led dev team of 6 to build platform for class taking, streaming, marketing; setting strategy and driving product development.",
+				"Built 100+ REST API for web app of 3k+ DAU (keo.plus) with Angular and Node.js for fast iteration and coherent coding practices; stored data in MongoDB for flexibility and scalability; streamlined quality assurance and user acceptance tests with Google Cloud Run.",
+				"Deployed with Alibaba Cloud, Docker, Kubernetes; managed servers, domains, infrastructure, file storage, content distribution, load balance, SMS/Email with Alibaba Cloud, AWS; established product management protocols and managing Agile practices with Git, Jira.",
+				"Conducted full stack development of features critical to local target clients such as phone auth, offline quiz, third party account linkage."
 			],
 			"fromDate": "Nov 2020",
 			"toDate": "Sep 2021"
@@ -49,10 +50,10 @@
 			"organization": "Novartis ",
 			"organizationDesc":"",
 			"aboutWork": [
-				"Co-managed a health software (170k users) with 10 others",
-				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition API in collaboration with Tencent AI Lab, significantly improved elderly users’ experience",
-				"Optimized business intelligence time performance by 99.8% with Python and Selenium",
-				"Worked cross-functionally to facilitate design and delivery of complex features"
+				"Co-managed a health software (170k users) with 10 others.",
+				"Led engineering of a drug name Optical Character Recognition-Named Entity Recognition API in collaboration with Tencent AI Lab, significantly improved elderly users’ experience.",
+				"Optimized business intelligence time performance by 99.8% with Python and Selenium.",
+				"Worked cross-functionally to facilitate design and delivery of complex features."
 			],
 			"fromDate": "Oct 2020",
 			"toDate": "Jan 2021"
@@ -62,9 +63,9 @@
 			"organization": "Roborock",
 			"organizationDesc":"Global top 3 for intelligent robot vacuum",
 			"aboutWork": [
-				"Built an automated CI/CD pipeline in Linux environment that handles 700k images weekly for customer-facing object detection AI model",
-				"Developed and integrated image preprocessing, object detection, inference verification website, self-designed relational database with Bash, Python, SQL, PHP, HTML, CSS, JS, Docker, Git; streamlined and raised delivery efficiency of CNN model development by 62.5%",
-				"Participated in paper reading and implementation of YOLO, SSD, MobileNet, Monodepth, Neural Architecture Search, FreeAnchor"
+				"Built an automated CI/CD pipeline in Linux environment that handles 700k images weekly for customer-facing object detection AI model.",
+				"Developed and integrated image preprocessing, object detection, inference verification website, self-designed relational database with Bash, Python, SQL, PHP, HTML, CSS, JS, Docker, Git; streamlined and raised delivery efficiency of CNN model development by 62.5%.",
+				"Participated in paper reading and implementation of YOLO, SSD, MobileNet, Monodepth, Neural Architecture Search, FreeAnchor."
 			],
 			"fromDate": "May 2020",
 			"toDate": "Sep 2020"
@@ -234,10 +235,10 @@
 				"awardDetail": "Hack@Home Best Professional Hack Finalist"
 			},
 			{
-				"awardDetail": "Canadian Computing Comp. top 3%"
+				"awardDetail": "Canadian Computing Competition top 3%"
 			},
 			{
-				"awardDetail": "Rensselaer Medal ($100k scholarship)"
+				"awardDetail": "Rensselaer Medal ($100k scholarship awarded to 1 select student per high school)"
 			}
 		],
 		"Math":[
@@ -253,10 +254,13 @@
 		],
 		"Research":[
 			{
+				"awardDetail": "2023 Brown CS department nomination for Computing Research Association Outstanding Undergraduate Researcher Award"
+			},
+			{
 				"awardDetail": "2023 Randy F. Pausch Computer Science Undergraduate Summer Research Award"
 			},
 			{
-				"awardDetail": "Undergraduate Teaching and Research Award"
+				"awardDetail": "2020 Karen Romer Undergraduate Teaching and Research Award"
 			},
 			{
 				"awardDetail": "2018 Intel International Science and Engineering Fair World Finals 4th Place"

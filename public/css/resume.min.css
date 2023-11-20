@@ -14,10 +14,10 @@ h3{font-size:2rem}
 p.lead{font-family:Verdana;font-size:1rem;font-weight:550}
 
 .heading{color:#343a40;text-transform:uppercase;font-weight:700;font-size:2rem;font-family:'Saira Condensed'}
-.subheading{color:#004A7F;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Extra Condensed'}
+.subheading{color:#004A7F;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Condensed'}
 .subheadinggrey{color:#787f86;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Extra Condensed'}
     /* -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'} */
-.subsubheading1{color:#787f86;font-weight:300;font-size:1.3rem;font-family:'Saira Extra Condensed'}
+.subsubheading1{color:#676d73;font-weight:300;font-size:1.3rem;font-family:'Saira Condensed'}
 .subsubheading2{color:#004A7F;font-weight:300;font-size:1.3rem;font-family:'Saira Extra Condensed'}
 
 .bg-primary{background-color:#004A7F!important}

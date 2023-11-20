@@ -24,54 +24,57 @@ class Research extends Component {
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
         <div className="w-100">
           <h2 className="mb-5">Research</h2>
-
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <div> 
-                <span className="heading mb-0 mr-2"> LEGO-Net: Learning Regular Rearrangements of Objects in Rooms </span>
+                <span className="heading mb-0 mr-2">  3D Scene Understanding and Canonicalization</span>
                 <span className="social-icons-small"> 
-                  <a title="Website" className="mr-2 mt-2 top" href="https://ivl.cs.brown.edu/#/projects/lego-net" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a> 
+                  <a title="Website" className="mr-2 mt-2 top" href="https://ivl.cs.brown.edu/research/lego-net.html" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a> 
                   <a title="Paper" className="mr-2 mt-2" href="https://arxiv.org/abs/2301.09629" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
                   <a title="Code" className="mr-2 top" href="https://github.com/QiuhongAnnaWei/LEGO-Net/" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a>
                 </span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2022-Present </span>
               </div>
-              <div> 
+              <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a>,  <a className="subheading" href="https://geometry.stanford.edu/member/guibas/" target="_blank" rel="noopener noreferrer"> Stanford Geometric Computing </a>   <br/>
+              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Srinath Sridhar, Prof. Leonidas Guibas </a> <br/>
+
+              {/* <div> 
                 Qiuhong Anna Wei, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas <br/>
                 <span className="resume-date subsubheading2"> <strong> CVPR 2023 </strong> </span>
-              </div>
+              </div> */}
 
               <ul className=" mb-0">
-                <li> LEGO-Net is a data-driven transformer-based iterative method for LEarning reGular rearrangement of Objects in messy rooms. </li>
-                <li>Partly inspired by diffusion models, LEGO-Net starts with an initial messy state and iteratively “denoises” the position and orientation of objects to a regular state while reducing distance traveled.</li>
-                <li>I won the <a href="https://awards.cs.brown.edu/2023/03/20/anh-truong-and-qiuhong-wei-win-randy-f-pausch-computer-science-undergraduate-summer-research-award/" target="_blank" rel="noopener noreferrer"> 2023 Randy F. Pausch Computer Science Summer Research Award</a> to continue my work!
-                </li>
-
+              <li>  <span className="subsubheading2"> CVPR 2023 </span>: "LEGO-Net: Learning Regular Rearrangements of Objects in Rooms" <i> <b>Qiuhong Anna Wei </b>, Sijie Ding, Jeong Joon Park, Rahul Sajnani, Adrien Poulenard, Srinath Sridhar, Leonidas Guibas </i> </li>
+                <ul>
+                  <li> LEGO-Net is a data-driven transformer-based iterative method for LEarning reGular rearrangement of Objects in messy rooms. </li>
+                  <li> Partly inspired by diffusion models, LEGO-Net starts with an initial messy state and iteratively “denoises” the position and orientation of objects to a regular state while reducing distance traveled.</li>
+                  <li> Achieves reliable rearrangement of complex scenes, generalizes to previously unseen scenes, outperforms relevant SOTA methods. </li>
+                </ul>
+                </ul>
+              <img className="mt-3 mb-2, ml-1"  height="300px" src={legonet1} alt=""/>
+              <ul className="mt-1 mb-0">
+                <li>I won the <a href="https://awards.cs.brown.edu/2023/03/20/anh-truong-and-qiuhong-wei-win-randy-f-pausch-computer-science-undergraduate-summer-research-award/" target="_blank" rel="noopener noreferrer"> 2023 Randy F. Pausch Computer Science Summer Research Award</a> to continue my work! </li>
+                <li>	Working on a <b>follow-up </b> with only 2D input to submit for publication in early 2024. </li>
               </ul>
-              <img className="mt-3 mb-2"  height="300px" src={legonet1} alt=""/>
-
             </div>
           </div>
+
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <div> 
-                <span className="heading mb-0 left">3D Computer Vision and Machine Learning</span>
-                <span className="resume-date text-md-right subsubheading2 right"> Mar 2021-Present </span>
+                <span className="heading mb-0 mr-2"> Multi-Party Computation in Cryptography </span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2023-Present </span>
               </div>
-              
-              <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a> <br/>
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Srinath Sridhar </a> <br/>
 
-              Past Projects:
+              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Peihan Miao </a> <br/>
               <ul className=" mb-0">
-                <li> Integrated deep learning and shape-from-silhouette 3D visual hull reconstruction to solve traditional concavity and occlusion challenges, leveraging projective geometry for self-supervision </li>
-                <li> Built encoder-decoder for segmentation and occupancy modeling with ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab </li>
-                {/* Integrated deep learning with shape-from-silhouette 3D reconstruction using ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab */}
-                {/* Investigating multi-object canonical arrangement, particularly a data-driven transformer-based iterative method partly inspired by diffusion models (LEGO-Net), which has shown to reliably rearrange complex scenes and outperform other methods. */}
-                <img className="mt-0"  height="260px" src={dvh} alt=""/>
+                <li> Working towards more efficient and malicious-secure Private Computing on Set Intersection (PCSI), which leaks less information than Private Set Intersection and has wider applications.</li>
+                  <li>nvestigating optimizations of key component oblivious shuffle via switching networks and exploring possible adaptations to alternative frameworks (e.g. anonymous routing).</li>
               </ul>
             </div>
           </div>
+
 
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
@@ -90,13 +93,35 @@ class Research extends Component {
 
               <ul className=" mb-0">
                 <li> Improved, implemented, analyzed, and conducted experiements with the secure aggregation protocol proposed by Bonawitz et al. that leverages secure multiparty computation to advance privacy-preserving machine learning. </li>
-                <li>Specific application involves computing mean of machine learning model updates from multiple clients in a secure manner, while maintaining efficiency and ensuring robustness to client drop-outs.</li>
+                <li> Specific application involves computing mean of machine learning model updates from multiple clients in a secure manner, while maintaining efficiency and ensuring robustness to client drop-outs.</li>
                 <li> Selected as top project and top reviewer for <a href="https://cs.brown.edu/people/ycheng79/csci2952qf22.html" target="_blank" rel="noopener noreferrer"> CSCI 2952-Q: Robust Algorithms for Machine Learning</a>. </li>
               </ul>
-              <img className="mt-2 mb-2"  height="350px" src={ppml2} alt=""/>
+              <img className="mt-2 mb-2 ml-1"  height="350px" src={ppml2} alt=""/>
             </div>
           </div>
 
+
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <div> 
+                <span className="heading mb-0 left">3D Computer Vision and Machine Learning</span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2021-2022 </span>
+              </div>
+              
+              <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a> <br/>
+              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Srinath Sridhar </a> <br/>
+
+              Past Projects:
+              <ul className=" mb-0">
+                <li> Integrated deep learning and shape-from-silhouette 3D visual hull reconstruction to solve traditional concavity and occlusion challenges, leveraging projective geometry for self-supervision. </li>
+                <li> Built encoder-decoder for segmentation and occupancy modeling with ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab. </li>
+                {/* Integrated deep learning with shape-from-silhouette 3D reconstruction using ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab */}
+                {/* Investigating multi-object canonical arrangement, particularly a data-driven transformer-based iterative method partly inspired by diffusion models (LEGO-Net), which has shown to reliably rearrange complex scenes and outperform other methods. */}
+                <img className="mt-0"  height="260px" src={dvh} alt=""/>
+              </ul>
+            </div>
+          </div>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -108,11 +133,11 @@ class Research extends Component {
                 <span className="resume-date text-md-right subsubheading2 right"> 2021 </span>
               </div>
 
-              <a className="subsubheading1 mt-1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Michael Littman, Kaiyu Zheng </a> <br/>
+              <a className="subsubheading1 mt-1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Prof. Michael Littman, Dr. Kaiyu Zheng </a> <br/>
 
               {/* <div class="flexcontainer">  */} {/* for putting it side by side */}
               <ul className="mb-0">
-                <li> Explored the unconventional setting of adversarial multi-agent teams in Partially Observable Stochastic Games </li> 
+                <li> Explored the unconventional setting of adversarial multi-agent teams in Partially Observable Stochastic Games. </li> 
                 <li> Designed game environments of multi-agent non-zero-sum games, and investigated the impact and performance of various training methodologies, leveraging Proximal Policy Optimization. </li>
                 {/* trained policies with Proximal Policy Optimization */}
                 {/* Ray, PettingZoo, TensorFlow, Tune, SuperSuit */}
@@ -128,15 +153,16 @@ class Research extends Component {
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <div> 
-                <span className="heading mb-0 left">3D Modeling and Synthesis</span>
-                <span className="resume-date text-md-right subsubheading2 right">July 2021 - Oct 2021</span>
+                <span className="heading mb-0 left">3D Human Modeling and Synthesis</span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2021 </span>
+                {/* July 2021 - Oct 2021 */}
               </div>
               <div> 
-                <span className="subheading mb-3" >Chinese University of Hong Kong - Hong Kong University of Science and Technology </span>
+                <span className="subheading mb-3" >Chinese University of Hong Kong, Hong Kong University of Science and Technology </span>
               </div> 
               <ul className=" mb-0">
-                <li> Researched novel view synthesis and human rendering from sparse input images with implicit neural fields  </li>
-                <li> Developed across servers and integrated diverse packages (e.g. OpenPose, SMPL) with conda, PyTorch distributed, CUDA, Slurm, SSH, Git, vi  </li>
+                <li> Researched novel view synthesis and human rendering from sparse input images with implicit neural fields.  </li>
+                <li> Developed across servers and integrated diverse packages (e.g. OpenPose, SMPL) with conda, PyTorch distributed, CUDA, Slurm, SSH, Git, vi.  </li>
               </ul>
             </div>
           </div>
@@ -149,15 +175,16 @@ class Research extends Component {
                   <a title="Paper" className="mr-2 mt-2" href="https://drive.google.com/file/d/1Vg-x73DVXiITuXdiAB1dLg7KoxPY8Tq3/view?usp=sharing" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> 
                   <a title="Source Code" className="mr-2 top" href="https://github.com/QiuhongAnnaWei/PINNs" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a> 
                 </span>
-                <span className="resume-date text-md-right subsubheading2 right"> Sep 2020 - Dec 2020 </span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2020 </span>
+                {/* Sep 2020 - Dec 2020 */}
               </div>
 
               <a className="subheading" href="https://www.dam.brown.edu/drp/" target="_blank" rel="noopener noreferrer">Brown Applied Math Honors Directed Reading Program </a> <br/>
-              <a className="subsubheading1 mb-3 " href="" target="_blank" rel="noopener noreferrer"> Advisor: Enrui Zhang, Prof. George Karniadakis</a> <br/>
+              <a className="subsubheading1 mb-3 " href="" target="_blank" rel="noopener noreferrer"> Advisor: Dr. Enrui Zhang, Prof. George Karniadakis </a> <br/>
 
 
               <ul className=" mb-0">
-                <li> Analyzed and implemented deep neural networks that encode physical laws to solve forward and inverse problems involving differential equations; achieved relative error of 0.3 %; generated visualizations and presented; used Python, TensorFlow, matplotlib</li>
+                <li> Analyzed and implemented deep neural networks that encode physical laws to solve forward and inverse problems involving differential equations; achieved relative error of 0.3 %; generated visualizations and presented; used Python, TensorFlow, matplotlib. </li>
                 <img className="mt-3" height="260px" src={PINN1} alt=""/>
                 <img className="mt-3" height="270px" src={PINN2} alt=""/>
 
