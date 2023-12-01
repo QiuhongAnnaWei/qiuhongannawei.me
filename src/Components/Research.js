@@ -111,7 +111,7 @@ class Research extends Component {
                 {/* <li> Improved, implemented, analyzed, and conducted experiements with the secure aggregation protocol proposed by Bonawitz et al. that leverages secure multiparty computation to advance privacy-preserving machine learning. </li> */}
                 <li>Delivered report and gave presentation; selected as top research project and top reviewer for graduate-level course <a href="https://cs.brown.edu/people/ycheng79/csci2952qf22.html" target="_blank" rel="noopener noreferrer"> CSCI 2952-Q: Robust Algorithms for Machine Learning</a>. </li>
               </ul>
-              <img className="mt-2 mb-2 ml-1" height="350px" src={ppml2} alt="" />
+              <img className="mt-2 mb-2 mx-3" height="350px" src={ppml2} alt="" />
             </div>
           </div>
 
@@ -127,14 +127,16 @@ class Research extends Component {
               <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a> <br />
               <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Srinath Sridhar </a> <br />
 
-              Past Projects:
               <ul className=" mb-0">
+                <li>  Past Projects: </li>
+                <ul>
                 <li> Integrated deep learning and shape-from-silhouette 3D visual hull reconstruction to solve traditional concavity and occlusion challenges, leveraging projective geometry for self-supervision. </li>
                 <li> Built encoder-decoder for segmentation and occupancy modeling on ShapeNet dataset. </li>
                 {/* Integrated deep learning with shape-from-silhouette 3D reconstruction using ShapeNet dataset, PyTorch, OpenCV, numpy, tk3dv, Colab */}
                 {/* Investigating multi-object canonical arrangement, particularly a data-driven transformer-based iterative method partly inspired by diffusion models (LEGO-Net), which has shown to reliably rearrange complex scenes and outperform other methods. */}
-                <img className="mt-0" height="260px" src={dvh} alt="" />
+                </ul>
               </ul>
+              <img className="mt-0 mx-4" height="260px" src={dvh} alt="" />
             </div>
           </div>
 
