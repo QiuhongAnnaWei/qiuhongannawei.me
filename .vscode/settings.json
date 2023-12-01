@@ -1,0 +1,14 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "javascript",
+            "scheme": "file",
+            "pattern": "src/Components/Research.js"
+        },
+        {
+            "language": "json",
+            "scheme": "file",
+            "pattern": "src/profileData.json"
+        }
+    ]
+}

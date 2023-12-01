@@ -30,9 +30,10 @@ class Education extends Component {
                 <li> <span className="subsubheading2"> Relevant Coursework (Mathematics) </span>: 
                 Probability, Statistics, Number Theory, Algebra, Graph Theory, Combinatorial Theory, Differential Equation, Real Analysis, Complex Analysis. </li>
                 <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the department-appointed <a target="_blank" href="https://cs.brown.edu/people/meta-ura/"> Meta Undergraduate Research Asssistants</a>. at Brown Computer Science, for which I head efforts to facilitate undergraduate research. Specifically, I host events and serve as liaison between faculty and ~1200 CS students. </li>
-                <li> <span className="subsubheading2"> Teaching </span>: I served as the teaching assistant for the first iterations of undergraduate coruse 'Applied Cryptography' and graduate course <a href="https://blog.cs.brown.edu/2022/09/19/novices-subject-matter-experts-how-2952-o-blurred-boundaries-between-robotics-cv-and-ml/" target="_blank" rel="noopener noreferrer"> "Advanced 3D Robot Perception"</a>.
+                <li> <span className="subsubheading2"> Teaching </span>: I served as the teaching assistant for the first iterations of undergraduate coruse <a href="https://brownappliedcryptography.github.io/" target="_blank" rel="noopener noreferrer"> "Applied Cryptography"</a> and graduate course <a href="https://blog.cs.brown.edu/2022/09/19/novices-subject-matter-experts-how-2952-o-blurred-boundaries-between-robotics-cv-and-ml/" target="_blank" rel="noopener noreferrer"> "Advanced 3D Robot Perception"</a>.
                  </li>
                 <li> <span className="subsubheading2"> Activities </span>: Moli East Asian Dance Company, Daebak Dance, Women in Computer Science (WiCS), Socially Responsible Investment Fund (SRIF), Brown Science Olympiad Event Coordinator. </li>
+                <li>Took leave of absence in 2020-2021 due to COVID</li>
               </ul>
               </div>
           </div>

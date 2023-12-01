@@ -21,7 +21,10 @@ class Awards extends Component {
             {
               this.awards.Research.map((data, index) => (
                 <li key={index}>
-                  <FontAwesomeIcon icon={faAward} color="#ffda85" /> <span className="ml-2"> {data.awardDetail} </span>
+                  <FontAwesomeIcon icon={faAward} color="#ffda85" /> <span className="ml-2"> 
+                 
+                  <a href={data.awardLink}  target="_blank" rel="noopener noreferrer">  {data.awardDetail}  </a>
+                  </span>
                 </li>
               ))
             }
