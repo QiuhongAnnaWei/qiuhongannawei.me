@@ -7,7 +7,7 @@ body{padding-top:54px;color:#495057;font-weight:400;font-family: 'Work Sans', sa
     /* font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'} */
 @media (min-width:992px)
 {body{padding-top:0;padding-left:17rem}}
-h1,h2,h3,h4,h5,h6{font-weight:700;text-transform:uppercase;color:#343a40;font-family:'Saira Extra Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'}
+h1,h2,h3,h4,h5,h6{font-weight:700;text-transform:uppercase;color:#343a40;font-family:'Saira Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'}
 h1{font-size:6rem;line-height:5.5rem}
 h2{font-size:3.5rem}
 h3{font-size:2rem}
