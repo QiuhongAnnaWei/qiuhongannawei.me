@@ -17,7 +17,7 @@ p.lead{font-family:Verdana;font-size:1rem;font-weight:550}
 .subheading{color:#004A7F;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Condensed'}
 .subheadinggrey{color:#787f86;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Extra Condensed'}
     /* -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'} */
-.subsubheading1{color:#676d73;font-weight:300;font-size:1.3rem;font-family:'Saira Condensed'}
+.subsubheading1{color:#676d73;font-weight:450;font-size:1.3rem;font-family:'Saira Condensed'}
 .subsubheading2{color:#004A7F;font-weight:300;font-size:1.3rem;font-family:'Saira Extra Condensed'}
 
 .bg-primary{background-color:#004A7F!important}
@@ -59,7 +59,7 @@ section.resume-section{padding-top:5rem!important;padding-bottom:5rem!important;
 section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px)
 {
 section.resume-section{min-height:100vh}
-section.resume-section .resume-item .resume-date{min-width:18rem}
+section.resume-section .resume-item .resume-date{min-width:none} /* 18rem */
 }@media (min-width:992px)
 {section.resume-section{padding-top:3rem!important;padding-bottom:3rem!important}}
 
