@@ -12,6 +12,17 @@
 	"experience": [
 		{
 
+			"position": "Research Advisor",
+			"organization": "Dymaxion",
+			"organizationDesc":"AI-powered interior design start-up",
+			"aboutWork": [
+				"Assisted exploration, evaluation, and integration of research related to indoor scene understanding and generative models."
+			],
+			"fromDate": "Dec 2023",
+			"toDate": "Mar 2024"
+		},
+		{
+
 			"position": "Software Engineering",
 			"organization": "Meta Reality Labs",
 			"organizationDesc":"",
@@ -256,7 +267,8 @@
 		],
 		"Research":[
 			{
-				"awardDetail": "2023 Brown CS department nomination for Computing Research Association Outstanding Undergraduate Researcher Award"
+				"awardDetail": "2024 Computing Research Association Outstanding Undergraduate Researcher Award Honorable Mention",
+				"awardLink": "https://cs.brown.edu/news/2024/02/07/four-brown-cs-students-receive-cra-outstanding-undergraduate-researcher-honors/"
 			},
 			{
 				"awardDetail": "2023 Randy F. Pausch Computer Science Undergraduate Summer Research Award",

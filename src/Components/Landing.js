@@ -26,12 +26,12 @@ class Landing extends Component {
 
           {/* <p className="lead mb-5">{this.landingData.bio}</p> */}
           <p className="lead mb-5">
-            I am a Computer Science-Mathematics student at <a href='https://www.brown.edu/' target="_blank" rel="noopener noreferrer">Brown University</a> and
+            I am a Mathematics-Computer Science student at <a href='https://www.brown.edu/' target="_blank" rel="noopener noreferrer">Brown University</a> and
             a researcher in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Brown Visual Computing</a> and <a href="http://theory.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Theoretical Computer Science at Brown</a>. 
             I have also spent time at Meta Reality Lab as an intern. 
             In general, I am passionate about solving challenging problems and creating impact through technology.
             <br/><br/>
-            Outside of CS and math, I enjoy dancing, creative writing, music, and exploring nature.
+            Outside of CS and math, I enjoy dancing, writing, music, and exploring nature.
             <br/><br/>
             Feel free to reach out to me through email or on LinkedIn if you'd like to chat!
           </p>

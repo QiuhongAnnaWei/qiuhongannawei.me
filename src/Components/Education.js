@@ -20,7 +20,10 @@ class Education extends Component {
                     <span className="resume-date text-md-right subsubheading2 right">Expected May 2024</span>
                   </div>
                   <div> 
-                    <span className="subheading mb-3">BS: Computer Science-Mathematics, MS (concurrent): Computer Science </span>
+                    <span className="subheading mb-3">BS: Mathematics-Computer Science </span> 
+                    </div> 
+                    <div> 
+                    <span className="subheading mb-3"> MS (<a href="https://college.brown.edu/sites/default/files/2022-02/Concurrent%20Degree%20Program%20Application--Revised%20August%202022.docx%20fillable.pdf" target="_blank" rel="noopener noreferrer">concurrent</a>): Computer Science </span>
                   </div> 
               
               <ul className="mb-2">
