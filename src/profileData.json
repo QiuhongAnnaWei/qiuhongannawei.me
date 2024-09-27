@@ -1,6 +1,6 @@
 {
 	"landing": {
-		"firstName": "Qiuhong (Anna)",
+		"firstName": "Qiuhong Anna",
 		"lastName": "Wei",
 		"phoneNumber": "",
 		"email": "qiuhong.anna.wei@gmail.com",
@@ -238,6 +238,17 @@
 	},
 	"awards": {
 		"CS":[
+			{
+				"awardDetail": "Norman K. Meyrowitz '81 Award",
+				"awardLink": "https://cs.brown.edu/news/2024/05/07/qiuhong-anna-wei-receives-norman-k-meyrowitz-81-award/"
+			},
+			{
+				"awardDetail": "Brown CS Senior Prize",
+				"awardLink": "https://cs.brown.edu/news/2024/02/07/four-brown-cs-students-receive-cra-outstanding-undergraduate-researcher-honors/"
+			},
+			{
+				"awardDetail": "HackDuke Best Environment Hack"
+			},
 			{
 				"awardDetail": "HackDuke Best Environment Hack"
 			},

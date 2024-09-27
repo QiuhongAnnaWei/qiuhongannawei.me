@@ -81,7 +81,7 @@ class Research extends Component {
                 <span className="resume-date text-md-right subsubheading2 right"> 2023-Present </span>
               </div>
 
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Peihan Mia, Anna Lysyanskaya, Gayathri Garimella </a> <br />
+              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Peihan Miao, Anna Lysyanskaya, Gayathri Garimella </a> <br />
               <ul className=" mb-0">
                 <li> Working towards more efficient and malicious-secure Private Computing on Set Intersection (PCSI), which leaks less information than Private Set Intersection and has wider applications (e.g., Google deployed it to measure advertisement conversion).</li>
                 <li>Investigating optimizations of key component oblivious shuffle via switching networks and exploring possible adaptations to alternative settings.</li>

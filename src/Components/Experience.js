@@ -20,7 +20,7 @@ class Experience extends Component {
 
                   <div> 
                     <span className="heading mb-0 left">{exp.position} </span>
-                    <span className="resume-date text-md-right subsubheading2 right">{exp.fromDate} - {exp.toDate}</span>
+                    <span className="resume-date subsubheading2 text-md-right right">{exp.fromDate} - {exp.toDate}</span>
                   </div>
                   <div> 
                     <span className="subheading mb-3">{exp.organization} </span>

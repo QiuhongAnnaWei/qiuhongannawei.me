@@ -7,24 +7,29 @@ body{padding-top:54px;color:#495057;font-weight:400;font-family: 'Work Sans', sa
     /* font-family:Muli,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'} */
 @media (min-width:992px)
 {body{padding-top:0;padding-left:17rem}}
-h1,h2,h3,h4,h5,h6{font-weight:700;text-transform:uppercase;color:#343a40;font-family:'Saira Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'}
+h1,h2,h3,h4,h5,h6{font-weight:600;color:#343a40; 
+    /* text-transform:uppercase */
+  font-family:'Saira Condensed',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'}
 h1{font-size:6rem;line-height:5.5rem}
 h2{font-size:3.5rem}
 h3{font-size:2rem}
 p.lead{font-family:Verdana;font-size:1rem;font-weight:550}
 
-.heading{color:#343a40;text-transform:uppercase;font-weight:700;font-size:2rem;font-family:'Saira Condensed'}
-.subheading{color:#004A7F;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Condensed'}
+/* Menlo, Courier, Courier New, Avenir, Open Sans */
+  /* -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'} */
+.heading{color:#343a40;font-weight:900;font-size:1.8rem;font-family:'Barlow Semi Condensed'}
+.subheading{color:#004A7F;font-weight:700;font-size:1.3rem;font-family:'Barlow Semi Condensed'} /*'Saira Condensed'}*/
 .subheadinggrey{color:#787f86;text-transform:uppercase;font-weight:500;font-size:1.5rem;font-family:'Saira Extra Condensed'}
-    /* -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif,'Apple Color Emoji','Segoe UI Emoji','Segoe UI Symbol','Noto Color Emoji'} */
-.subsubheading1{color:#676d73;font-weight:450;font-size:1.3rem;font-family:'Saira Condensed'}
-.subsubheading2{color:#004A7F;font-weight:300;font-size:1.3rem;font-family:'Saira Extra Condensed'}
+.subsubheading1{color:#676d73;font-weight:300;font-size:1rem;font-family:'Open Sans'} /*'Saira Condensed'}*/
+.subsubheading2{color:#004A7F;font-weight:400;font-size:1.2rem;font-family:'Saira Condensed'}
+
+
+ul{list-style: square;list-style-position: outside;font-family: 'Work Sans', sans-serif}
 
 .bg-primary{background-color:#004A7F!important}
 .text-primary{color:#004A7F!important}
 a{color:#0288e8}a:active,a:focus,a:hover{color:#495057}  
 
-ul{list-style: square;list-style-position: outside;font-family: 'Work Sans', sans-serif}
 
 .left{text-align: left; width:65%; display: inline-block;}
 .right{float:right}
