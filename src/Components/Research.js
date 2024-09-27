@@ -29,7 +29,7 @@ class Research extends Component {
             <div className="resume-content">
               <div>
                 <span className="heading mb-0 mr-2"> Regular Rearrangements with 2D Input Only </span>
-                <span className="resume-date text-md-right subsubheading2 right"> 2023-Present </span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2023-2024 </span>
               </div>
 
               <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a>,  <a className="subheading" href="https://geometry.stanford.edu/member/guibas/" target="_blank" rel="noopener noreferrer"> Stanford Geometric Computing </a> <br />
@@ -37,7 +37,7 @@ class Research extends Component {
               <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Srinath Sridhar, Leonidas Guibas </a> <br />
               <ul className=" mb-0">
                 <li>Follow-up to LEGO-Net with only limited 2D information about a scene. </li>
-                <li>Drawing inspiration from human decomposition of the task and leveraging guidance from large-scale pretrained models for subtasks that require `imagination' and realism.</li>
+                <li>Drew inspiration from human decomposition of the task and leveraged guidance from large-scale pretrained models for subtasks that require `imagination' and realism.</li>
               </ul>
             </div>
           </div>
@@ -73,18 +73,21 @@ class Research extends Component {
             </div>
           </div>
 
-
+          
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <div>
                 <span className="heading mb-0 mr-2"> More Efficient Private Computing on Set Intersection </span>
-                <span className="resume-date text-md-right subsubheading2 right"> 2023-Present </span>
+                <span className="social-icons-small">
+                  <a title="Website" className="mr-2 mt-0 top" href="https://cs.brown.edu/media/filer_public/37/e6/37e69ea3-ff0b-4cdd-935f-740161ba9aa3/weiqiuhong_anna.pdf" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>
+                </span>
+                <span className="resume-date text-md-right subsubheading2 right"> 2023-2024 </span>
               </div>
 
               <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Peihan Miao, Anna Lysyanskaya, Gayathri Garimella </a> <br />
               <ul className=" mb-0">
-                <li> Working towards more efficient and malicious-secure Private Computing on Set Intersection (PCSI), which leaks less information than Private Set Intersection and has wider applications (e.g., Google deployed it to measure advertisement conversion).</li>
-                <li>Investigating optimizations of key component oblivious shuffle via switching networks and exploring possible adaptations to alternative settings.</li>
+                <li> Worked on more efficient and malicious-secure Private Computing on Set Intersection (PCSI), which leaks less information than Private Set Intersection and has wider applications (e.g., Google deployed it to measure advertisement conversion).</li>
+                <li>Investigated optimizations of key component oblivious shuffle via switching networks and explored possible adaptations to alternative settings.</li>
               </ul>
             </div>
           </div>
