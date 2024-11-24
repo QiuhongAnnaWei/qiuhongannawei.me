@@ -88,6 +88,7 @@ class Research extends Component {
               <ul className=" mb-0">
                 <li> Worked on more efficient and malicious-secure Private Computing on Set Intersection (PCSI), which leaks less information than Private Set Intersection and has wider applications (e.g., Google deployed it to measure advertisement conversion).</li>
                 <li>Investigated optimizations of key component oblivious shuffle via switching networks and explored possible adaptations to alternative settings.</li>
+                {/* TODO: update? */}
               </ul>
             </div>
           </div>
