@@ -26,10 +26,10 @@ class Landing extends Component {
 
           {/* <p className="lead mb-5">{this.landingData.bio}</p> */}
           <p className="lead mb-5">
-            I am a PhD student in the Machine Learning Department at Carnegie Mellon University. 
+            I am a PhD student in the Machine Learning Department at Carnegie Mellon University, co-advised by <a href="https://www.cs.cmu.edu/~atalwalk/" target="_blank" rel="noopener noreferrer">Ameet Talwalkar</a> and <a href="https://www.andrew.cmu.edu/user/aristesk/" target="_blank" rel="noopener noreferrer">Andrej Risteski</a>.
             <br/><br/>
             
-            Previously, I completed a Bachelor's in Mathematics-Computer Science and a <a href="https://college.brown.edu/sites/default/files/2022-02/Concurrent%20Degree%20Program%20Application--Revised%20August%202022.docx%20fillable.pdf" target="_blank" rel="noopener noreferrer">concurrent</a> Master's in Computer Science from Brown University, where I worked in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Visual Computing</a> and <a href="http://theory.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Theoretical Computer Science</a>. 
+            Previously, I completed a Bachelor's in Mathematics-Computer Science and a <a href="https://drive.google.com/file/d/1b-sX49OCdImHHnKsQYCDTe0rooTGPe_Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">concurrent</a> Master's in Computer Science from Brown University, where I worked in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Visual Computing</a> and <a href="http://theory.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Theoretical Computer Science</a>. 
             I was fortunate to be advised by
             <a href="https://cs.brown.edu/people/ssrinath/" target="_blank" rel="noopener noreferrer"> Srinath Sridhar</a>, 
             <a href="https://geometry.stanford.edu/" target="_blank" rel="noopener noreferrer"> Leonidas Guibas</a>, 
