@@ -32,7 +32,7 @@ class Landing extends Component {
             Previously, I completed a Bachelor's in Mathematics-Computer Science and a <a href="https://drive.google.com/file/d/1b-sX49OCdImHHnKsQYCDTe0rooTGPe_Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">concurrent</a> Master's in Computer Science from Brown University, where I worked in <a href="https://visual.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Visual Computing</a> and <a href="http://theory.cs.brown.edu/" target="_blank" rel="noopener noreferrer"> Theoretical Computer Science</a>. 
             I was fortunate to be advised by
             <a href="https://cs.brown.edu/people/ssrinath/" target="_blank" rel="noopener noreferrer"> Srinath Sridhar</a>, 
-            <a href="https://geometry.stanford.edu/" target="_blank" rel="noopener noreferrer"> Leonidas Guibas</a>, 
+            <a href="https://geometry.stanford.edu/" target="_blank" rel="noopener noreferrer"> Leonidas Guibas</a> (Stanford), 
             <a href="https://sites.google.com/view/peihanmiao/home" target="_blank" rel="noopener noreferrer"> Peihan Miao</a>, and
             <a href="https://cs.brown.edu/people/alysyans/" target="_blank" rel="noopener noreferrer"> Anna Lysyanskaya</a>.
             Additionally, I served as one of the department-appointed <a target="_blank" href="https://cs.brown.edu/people/meta-ura/"> Meta Undergraduate Research Asssistants</a>, for which I led efforts to facilitate undergraduate research. 

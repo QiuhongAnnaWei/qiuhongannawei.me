@@ -16,7 +16,7 @@
 			"organization": "Dymaxion",
 			"organizationDesc":"AI-powered interior design start-up",
 			"aboutWork": [
-				"Assisted exploration, evaluation, and integration of research related to indoor scene understanding and generative models."
+				"Assisted exploration, evaluation, integration of research related to indoor scene understanding and text-guided generative models."
 			],
 			"fromDate": "Dec 2023",
 			"toDate": "Mar 2024"
@@ -239,12 +239,12 @@
 	"awards": {
 		"CS":[
 			{
-				"awardDetail": "Norman K. Meyrowitz '81 Award",
+				"awardDetail": "Norman K. Meyrowitz '81 Award (awarded to 0-1 graduate each year for exceptionally meritorious service to Brown CS)",
 				"awardLink": "https://cs.brown.edu/news/2024/05/07/qiuhong-anna-wei-receives-norman-k-meyrowitz-81-award/"
 			},
 			{
 				"awardDetail": "Brown CS Senior Prize",
-				"awardLink": "https://cs.brown.edu/news/2024/02/07/four-brown-cs-students-receive-cra-outstanding-undergraduate-researcher-honors/"
+				"awardLink": "https://cs.brown.edu/news/2024/05/06/twenty-eight-students-win-2024-brown-cs-senior-prizes/"
 			},
 			{
 				"awardDetail": "HackDuke Best Environment Hack"
