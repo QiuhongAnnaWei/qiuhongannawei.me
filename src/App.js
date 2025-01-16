@@ -40,11 +40,11 @@ class App extends Component {
         <Landing landingData={this.state.landingData} />
         <hr className="m-0" />
 
+
         <Education education={this.state.education}/>
         <hr className="m-0" />
         <Awards awards={this.state.awards} />
         <hr className="m-0" />
-
         <Research research={this.state.research} />
         <hr className="m-0" />
         <Experience experience={this.state.experience} />

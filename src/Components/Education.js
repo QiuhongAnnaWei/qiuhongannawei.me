@@ -25,7 +25,7 @@ class Education extends Component {
                     <span className="subheading mb-3"> MS (<a href="https://college.brown.edu/sites/default/files/2022-02/Concurrent%20Degree%20Program%20Application--Revised%20August%202022.docx%20fillable.pdf" target="_blank" rel="noopener noreferrer">concurrent</a>): Computer Science </span>
                   </div> 
 
-                  <span className="subheading2"> <i> Honors, Magna cum laude, Senior Prize, Norman K. Meyrowitz '81 Award, Sigma Xi </i> </span>
+                  <span className="subheading2">  Honors, Magna cum laude, Senior Prize, Norman K. Meyrowitz '81 Award, Sigma Xi  </span>
               
               <ul className="mb-2">
                 <li> <span className="subsubheading2"> GPA </span>: 4.00/4.00 </li>
