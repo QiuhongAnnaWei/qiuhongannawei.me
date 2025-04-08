@@ -30,7 +30,7 @@ class Projects extends Component {
           <h2 className="mb-5">Projects</h2>
 
 
-          {/* distributed */}
+          {/* distributed: reporadar */} 
             {/* https://github.com/jurruti/search-engine */}
             {/* https://brown-cs1380s24.hotcrp.com/doc/brown-cs1380s24-paper89.pdf?cap=hcav89sMpigoFmCTxfWFbqhkBbyVzA */}
 
