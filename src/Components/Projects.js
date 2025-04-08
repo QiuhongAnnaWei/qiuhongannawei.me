@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faDev } from "@fortawesome/free-brands-svg-icons";
 import { faPager, faFileAlt, faVideo } from "@fortawesome/free-solid-svg-icons";
 import network from '../Assets/network.png';
+import network7 from '../Assets/network7-.png';
+
 import gooey1 from '../Assets/gooey1.png';
 import toolkit1 from '../Assets/toolkit1.png';
 import zoom1 from '../Assets/zoom1.jpg';
@@ -28,12 +30,18 @@ class Projects extends Component {
           <h2 className="mb-5">Projects</h2>
 
 
+          {/* distributed */}
+            {/* https://github.com/jurruti/search-engine */}
+            {/* https://brown-cs1380s24.hotcrp.com/doc/brown-cs1380s24-paper89.pdf?cap=hcav89sMpigoFmCTxfWFbqhkBbyVzA */}
+
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <div>
                 <span className="heading mb-2 mr-2"> Network Stack </span>
                 <span className="social-icons-small">
-                  <a title="Information" className="mr-2" href="http://merlot.usc.edu/cs402-m19/prepare-kernel/weenix-documentation.pdf" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>
+                  {/* <a title="Information" className="mr-2" href="" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> */}
+                  {/* https://cs.brown.edu/courses/csci1680/f23/schedule/  */}
+                  {/* https://github.com/brown-cs1680-f23/iptcp-qwei3-tlamlert */}
                 </span>
               </div>
               <div className="subheading mb-0" href=""> Virtual network stack consisting of link, network, transport, and application layers </div>
@@ -48,9 +56,12 @@ class Projects extends Component {
                   <li> command line applications </li>
                 </ul>
               </ul>
-              <img className="mt-1 mb-2 mx-4" height="320px" src={network} alt=""></img>
+              <img className="mt-1 mb-2" height="340px" src={network} alt=""></img>
+              <img className="ml-1 mt-1 mb-2" height="340px" src={network7} alt=""></img>
             </div>
           </div>
+
+          
 
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
