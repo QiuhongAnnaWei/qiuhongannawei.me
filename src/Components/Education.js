@@ -20,16 +20,17 @@ class Education extends Component {
                     <span className="resume-date text-md-right subsubheading2 right">May 2024</span>
                   </div>
                   <div> 
-                    <span className="subheading mb-3">BS: Mathematics-Computer Science (Honors, Magna cum laude, Sigma Xi)</span> 
-                    </div> 
-                    <div> 
+                    <span className="subheading mb-3">BS: Mathematics-Computer Science </span> ,
+                   
                     <span className="subheading mb-3"> MS (<a href="https://college.brown.edu/sites/default/files/2022-02/Concurrent%20Degree%20Program%20Application--Revised%20August%202022.docx%20fillable.pdf" target="_blank" rel="noopener noreferrer">concurrent</a>): Computer Science </span>
                   </div> 
+
+                  <span className="subheading2">  Honors, Magna cum laude, Senior Prize, Norman K. Meyrowitz '81 Award, Sigma Xi  </span>
               
               <ul className="mb-2">
                 <li> <span className="subsubheading2"> GPA </span>: 4.00/4.00 </li>
                 <li> <span className="subsubheading2"> Relevant Coursework (Computer Science) </span>: 
-                Computer Vision, Cryptography, Robust Algorithms for Machine Learning, Computer Graphics, Learning and Sequential Decision Making, Data Structures and Algorithms, Computer Systems, Computer Networks, Operating Systems, Computer Architecture, Software Engineering, Prescriptive Analytics. </li>
+                Computer Vision, Cryptography, Robust Algorithms for Machine Learning, Computer Graphics, Learning and Sequential Decision Making, Data Structures and Algorithms, Computer Systems, Computer Networks, Operating Systems, Computer Architecture, Software Engineering, Prescriptive Analytics, Distributed Systems. </li>
                 <li> <span className="subsubheading2"> Relevant Coursework (Mathematics) </span>: 
                 Probability, Statistics, Number Theory, Algebra, Graph Theory, Combinatorial Theory, Differential Equation, Real Analysis, Complex Analysis. </li>
                 <li> <span className="subsubheading2"> Leadership & Service </span>: I am one of the department-appointed <a target="_blank" href="https://cs.brown.edu/people/meta-ura/"> Meta Undergraduate Research Asssistants</a>. at Brown Computer Science, for which I head efforts to facilitate undergraduate research. Specifically, I host events and serve as liaison between faculty and ~1200 CS students. </li>
@@ -41,7 +42,7 @@ class Education extends Component {
               </div>
           </div>
 
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+          {/* <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
               <div className="resume-content">
                   <div> 
                     <span className="heading mb-0 left">Concordia International School Shanghai <span className="subsubheading1">Shanghai, China</span></span>
@@ -58,7 +59,7 @@ class Education extends Component {
               </ul>
               </div>
           </div>
-          
+           */}
         </div>
       </section>
     );

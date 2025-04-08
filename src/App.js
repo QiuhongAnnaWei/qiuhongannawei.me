@@ -39,15 +39,17 @@ class App extends Component {
 
         <Landing landingData={this.state.landingData} />
         <hr className="m-0" />
+
+
+        <Education education={this.state.education}/>
+        <hr className="m-0" />
+        <Awards awards={this.state.awards} />
+        <hr className="m-0" />
         <Research research={this.state.research} />
         <hr className="m-0" />
         <Experience experience={this.state.experience} />
         <hr className="m-0" />
         <Projects projects={this.state.projects} />
-        <hr className="m-0" />
-        <Education education={this.state.education}/>
-        <hr className="m-0" />
-        <Awards awards={this.state.awards} />
         <hr className="m-0" />
         {/* <Interests interests={this.state.interests} /> */}
         {/* <hr className="m-0" /> */}
