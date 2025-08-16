@@ -36,7 +36,7 @@ class Landing extends Component {
             <a href="https://sites.google.com/view/peihanmiao/home" target="_blank" rel="noopener noreferrer"> Peihan Miao</a>, and
             <a href="https://cs.brown.edu/people/alysyans/" target="_blank" rel="noopener noreferrer"> Anna Lysyanskaya</a>.
             Additionally, I served as one of the department-appointed <a target="_blank" href="https://cs.brown.edu/people/meta-ura/"> Meta Undergraduate Research Asssistants</a>, for which I led efforts to facilitate undergraduate research. 
-            I have also spent time at Meta Reality Lab as an intern. 
+            I have also spent time at Meta Reality Labs as an intern. 
             {/* In general, I am passionate about solving challenging problems and creating impact through technology. */}
             
             <br/><br/>
