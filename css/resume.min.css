@@ -94,7 +94,7 @@ section.resume-section {
 .heading .subsubheading1 { display: inline-block; margin-left: .5rem; }
 .left { text-align: left; }
 .right { float: none; }
-.education-degrees { display: flex; flex-wrap: wrap; gap: .25rem 1rem; }
+.education-degrees { display: flex; flex-direction: column; gap: .25rem; }
 .education-degrees .subheading { margin: 0 !important; }
 .education-honors {
   display: block;
@@ -199,7 +199,6 @@ hr { border-top-color: var(--site-border); }
   .heading .subsubheading1 { display: block; margin-left: 0; margin-top: .2rem; }
   .contact-details .contact-divider { display: none; }
   .contact-details span { display: block; }
-  .education-degrees { flex-direction: column; }
   .flexcontainer { display: block; }
 }
 
