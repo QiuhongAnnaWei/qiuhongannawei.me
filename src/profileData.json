@@ -11,6 +11,16 @@
 	},
 	"experience": [
 		{
+			"position": "Applied Scientist Intern",
+			"organization": "Amazon",
+			"aboutWork": [
+				"Designed and built an evolving latent-factor state-space model for forecasting non-equilibrium, multi-scale, coupled, and data-scarce timeseries dynamics.",
+				"Improved accuracy by 5% on business-critical forecasting task and cut error by 5x on timeseries where existing method is structurally blind."
+			],
+			"fromDate": "May 2026",
+			"toDate": "Aug 2026"
+		},
+		{
 
 			"position": "Research Advisor",
 			"organization": "Dymaxion",

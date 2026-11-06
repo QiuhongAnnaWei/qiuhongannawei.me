@@ -23,18 +23,21 @@ class Research extends Component {
     return (
       <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="research">
         <div className="w-100">
-          <h2 className="mb-5">Research</h2>
+          <h2 className="mb-3">Research</h2>
+          <p className="research-intro mb-5">
+            Please check my <a href="https://scholar.google.com/citations?user=Fquy9PYAAAAJ" target="_blank" rel="noopener noreferrer">Google Scholar</a> profile for my latest work.
+          </p>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 mr-2"> Regular Rearrangements with 2D Input Only </span>
                 <span className="resume-date text-md-right subsubheading2 right"> 2023-2024 </span>
               </div>
 
               <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a>,  <a className="subheading" href="https://geometry.stanford.edu/member/guibas/" target="_blank" rel="noopener noreferrer"> Stanford Geometric Computing </a> <br />
 
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Srinath Sridhar, Leonidas Guibas </a> <br />
+              <span className="subsubheading1 mb-3"> Advisors: Srinath Sridhar, Leonidas Guibas </span> <br />
               <ul className=" mb-0">
                 <li>Follow-up to LEGO-Net with only limited 2D information about a scene. </li>
                 <li>Drew inspiration from human decomposition of the task and leveraged guidance from large-scale pretrained models for subtasks that require `imagination' and realism.</li>
@@ -44,7 +47,7 @@ class Research extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 mr-2"> (CVPR 23) 3D Scene Understanding and Canonicalization</span>
                 <span className="social-icons-small">
                   <a title="Website" className="mr-2 mt-0 top" href="https://ivl.cs.brown.edu/research/lego-net.html" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a>
@@ -56,7 +59,7 @@ class Research extends Component {
 
               <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a>,  <a className="subheading" href="https://geometry.stanford.edu/member/guibas/" target="_blank" rel="noopener noreferrer"> Stanford Geometric Computing </a> <br />
 
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Srinath Sridhar, Leonidas Guibas </a> <br />
+              <span className="subsubheading1 mb-3"> Advisors: Srinath Sridhar, Leonidas Guibas </span> <br />
 
               <ul className=" mb-0">
                 <li>
@@ -76,7 +79,7 @@ class Research extends Component {
           
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 mr-2"> More Efficient Private Computing on Set Intersection </span>
                 <span className="social-icons-small">
                   <a title="Website" className="mr-2 mt-0 top" href="https://cs.brown.edu/media/filer_public/37/e6/37e69ea3-ff0b-4cdd-935f-740161ba9aa3/weiqiuhong_anna.pdf" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>
@@ -84,7 +87,7 @@ class Research extends Component {
                 <span className="resume-date text-md-right subsubheading2 right"> 2023-2024 </span>
               </div>
 
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Peihan Miao, Anna Lysyanskaya, Gayathri Garimella </a> <br />
+              <span className="subsubheading1 mb-3"> Advisors: Peihan Miao, Anna Lysyanskaya, Gayathri Garimella </span> <br />
               <ul className=" mb-0">
                 <li> Worked on more efficient and malicious-secure Private Computing on Set Intersection (PCSI), which leaks less information than Private Set Intersection and has wider applications (e.g., Google deployed it to measure advertisement conversion).</li>
                 <li>Investigated optimizations of key component oblivious shuffle via switching networks and explored possible adaptations to alternative settings.</li>
@@ -97,7 +100,7 @@ class Research extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 mr-2"> Secure Aggregation for Privacy-Perserving Machine Learning </span>
                 <span className="social-icons-small">
                   <a title="Paper" className="mr-2 mt-2" href="https://cs.brown.edu/people/ycheng79/csci2952qf22/Top_Project_5_Anna%20Wei_Andy%20Liu_Privacy-Preserving%20Machine%20Learning.pdf" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>
@@ -107,7 +110,7 @@ class Research extends Component {
               </div>
 
               <a className="subheading" href="https://mapps-brown.github.io/workshop2023/" target="_blank" rel="noopener noreferrer">Center for Mobility Analysis for Pandemic Prevention Strategies (MAPPS) </a>  <br />
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Anna Lysyanskaya, Yu Cheng </a> <br />
+              <span className="subsubheading1 mb-3"> Advisors: Anna Lysyanskaya, Yu Cheng </span> <br />
 
               <ul className=" mb-0">
                 <li>Investigated how to train a COVID prediction machine learning model from distributed, private mobility datasets by securely aggregating model updates while maintaining efficiency and robustness to node drop-out.</li>
@@ -123,13 +126,13 @@ class Research extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 left">3D Computer Vision and Machine Learning</span>
                 <span className="resume-date text-md-right subsubheading2 right"> 2021-2022 </span>
               </div>
 
               <a className="subheading" href="https://ivl.cs.brown.edu/" target="_blank" rel="noopener noreferrer">Brown Interactive 3D Vision & Learning Lab </a> <br />
-              <a className="subsubheading1 mb-3" target="_blank" rel="noopener noreferrer"> Advisor: Srinath Sridhar </a> <br />
+              <span className="subsubheading1 mb-3"> Advisor: Srinath Sridhar </span> <br />
 
               <ul className=" mb-0">
                 <li>  Past Projects: </li>
@@ -146,7 +149,7 @@ class Research extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 mr-2"> Multi-Agent Reinforcement Learning </span>
                 <span className="social-icons-small">
                   <a title="Source Code" className="mr-2 top" href="https://github.com/QiuhongAnnaWei/MultiAgent-PositronicLizards" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a>
@@ -154,7 +157,7 @@ class Research extends Component {
                 <span className="resume-date text-md-right subsubheading2 right"> 2021 </span>
               </div>
 
-              <a className="subsubheading1 mt-1 mb-3" target="_blank" rel="noopener noreferrer"> Advisors: Michael Littman, Kaiyu Zheng </a> <br />
+              <span className="subsubheading1 mt-1 mb-3"> Advisors: Michael Littman, Kaiyu Zheng </span> <br />
 
               {/* <div class="flexcontainer">  */} {/* for putting it side by side */}
               <ul className="mb-0">
@@ -173,7 +176,7 @@ class Research extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 left">3D Human Modeling</span>
                 <span className="resume-date text-md-right subsubheading2 right"> 2021 </span>
                 {/* July 2021 - Oct 2021 */}
@@ -190,7 +193,7 @@ class Research extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-0 mr-2"> Physics Informed Neural Networks </span>
                 <span className="social-icons-small">
                   <a title="Paper" className="mr-2 mt-2" href="https://drive.google.com/file/d/1Vg-x73DVXiITuXdiAB1dLg7KoxPY8Tq3/view?usp=sharing" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>
@@ -201,7 +204,7 @@ class Research extends Component {
               </div>
 
               <a className="subheading" href="https://www.dam.brown.edu/drp/" target="_blank" rel="noopener noreferrer">Brown Applied Math Honors Directed Reading Program </a> <br />
-              <a className="subsubheading1 mb-3 " href="" target="_blank" rel="noopener noreferrer"> Advisors: Enrui Zhang </a> <br /> {/* George Karniadakis,  */}
+              <span className="subsubheading1 mb-3 "> Advisors: Enrui Zhang </span> <br /> {/* George Karniadakis,  */}
 
 
               <ul className=" mb-0">

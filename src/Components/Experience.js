@@ -18,7 +18,8 @@ class Experience extends Component {
               <div key={index} className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
                 <div className="resume-content">
 
-                  <div> 
+                  <div className="entry-header">
+
                     <span className="heading mb-0 left">{exp.position} </span>
                     <span className="resume-date subsubheading2 text-md-right right">{exp.fromDate} - {exp.toDate}</span>
                   </div>

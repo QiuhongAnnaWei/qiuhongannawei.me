@@ -16,10 +16,10 @@ class Landing extends Component {
             {this.landingData.firstName} {this.landingData.lastName}
           </h1>
 
-          <div className="mt-2 mb-5">
+          <div className="contact-details">
             <span className = "subsubheading1">qiuhong (dot) anna (dot) wei (at) gmail (dot) com </span>  
             {/*  href="mailto:qiuhong.anna.wei@gmail.com" */}
-            <span> |  </span> 
+            <span className="contact-divider" aria-hidden="true"> | </span>
             <span className = "subsubheading1"> qiuhongw (at) andrew (dot) cmu (dot) edu </span>
             {/*  href="mailto:qiuhong_wei@brown.edu" */}
           </div>
@@ -36,20 +36,22 @@ class Landing extends Component {
             <a href="https://sites.google.com/view/peihanmiao/home" target="_blank" rel="noopener noreferrer"> Peihan Miao</a>, and
             <a href="https://cs.brown.edu/people/alysyans/" target="_blank" rel="noopener noreferrer"> Anna Lysyanskaya</a>.
             Additionally, I served as one of the department-appointed <a target="_blank" href="https://cs.brown.edu/people/meta-ura/"> Meta Undergraduate Research Asssistants</a>, for which I led efforts to facilitate undergraduate research. 
-            I have also spent time at Meta Reality Lab as an intern. 
             {/* In general, I am passionate about solving challenging problems and creating impact through technology. */}
             
             <br/><br/>
-            Outside of CS and math, I enjoy dancing, writing, music, and exploring nature.
+            I have also spent time at Meta Reality Labs and Amazon as an intern.
+
+            <br/><br/>
+            Outside of work, I enjoy dancing, writing, music, and exploring nature.
             
             {/* <br/><br/> */}
             {/* Feel free to reach out to me through email or on LinkedIn if you'd like to chat! */}
           </p>
           
           <div className="social-icons">
-            <a href={this.landingData.github} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faGithub} /> </a>
-            <a href={this.landingData.googleScholar} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faGoogle} /> </a>
-            <a href={this.landingData.linkedin} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> </a>
+            <a aria-label="GitHub" href={this.landingData.github} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faGithub} /> </a>
+            <a aria-label="Google Scholar" href={this.landingData.googleScholar} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon icon={faGoogle} /> </a>
+            <a aria-label="LinkedIn" href={this.landingData.linkedin} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faLinkedin} /> </a>
           </div>
 
         </div>

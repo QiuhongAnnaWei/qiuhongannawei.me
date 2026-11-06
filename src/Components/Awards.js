@@ -16,42 +16,42 @@ class Awards extends Component {
         <div className="w-100">
           <h2 className="mb-5">Awards</h2>
 
-          <div className="subheading mb-2">Research</div>
+          <div className="heading mb-2">Research</div>
           <ul className="fa-ul mb-5">
             {
               this.awards.Research.map((data, index) => (
                 <li key={index}>
                   {/* <FontAwesomeIcon icon={faAward} color="#ffda85" />  */}
                   <span className="ml-2"> 
-                  <a href={data.awardLink}  target="_blank" rel="noopener noreferrer">  {data.awardDetail}  </a>
+                  {data.awardLink ? <a href={data.awardLink} target="_blank" rel="noopener noreferrer">{data.awardDetail}</a> : data.awardDetail}
                   </span>
                 </li>
               ))
             }
           </ul>
 
-          <div className="subheading mb-2">Computer Science</div>
+          <div className="heading mb-2">Computer Science</div>
           <ul className="fa-ul mb-5">
             {
               this.awards.CS.map((data, index) => (
                 <li key={index}>
                   {/* <FontAwesomeIcon icon={faAward} color="#ffda85" />  */}
                   <span className="ml-2"> 
-                  <a href={data.awardLink}  target="_blank" rel="noopener noreferrer">  {data.awardDetail}  </a>
+                  {data.awardLink ? <a href={data.awardLink} target="_blank" rel="noopener noreferrer">{data.awardDetail}</a> : data.awardDetail}
                   </span>
                 </li>
               ))
             }
           </ul>
 
-          <div className="subheading mb-2">Math</div>
+          <div className="heading mb-2">Math</div>
           <ul className="fa-ul mb-5">
             {
               this.awards.Math.map((data, index) => (
                 <li key={index}>
                   {/* <FontAwesomeIcon icon={faAward} color="#ffda85" />  */}
                   <span className="ml-2"> 
-                  <a href={data.awardLink}  target="_blank" rel="noopener noreferrer">  {data.awardDetail}  </a>
+                  {data.awardLink ? <a href={data.awardLink} target="_blank" rel="noopener noreferrer">{data.awardDetail}</a> : data.awardDetail}
                   </span>
                 </li>
               ))

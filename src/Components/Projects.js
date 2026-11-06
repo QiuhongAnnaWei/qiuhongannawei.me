@@ -36,7 +36,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-2 mr-2"> Network Stack </span>
                 <span className="social-icons-small">
                   {/* <a title="Information" className="mr-2" href="" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a> */}
@@ -66,7 +66,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-2 mr-2"> Weenix Operating System </span>
                 <span className="social-icons-small">
                   <a title="Information" className="mr-2" href="http://merlot.usc.edu/cs402-m19/prepare-kernel/weenix-documentation.pdf" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faFileAlt} /> </a>
@@ -91,7 +91,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mt-3 mb-2 mr-2"> Single-Cycle Processor </span>
                 <span className="social-icons-small">
                 </span>
@@ -108,7 +108,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mt-3 mb-2 mr-2"> Gooey </span>
                 <span className="social-icons-small">
                   <a title="Source Code" className="mr-2" href="https://github.com/QiuhongAnnaWei/gooey" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a>
@@ -132,7 +132,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mt-3 mb-2 mr-2"> Computer Vision Toolkit  </span>
               </div>
               <div className="subheading mb-0" href=""> All-in-one Python program with diverse vision capabilities </div>
@@ -148,7 +148,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-2 mr-2"> Crepusculum </span>
                 <span className="social-icons-small">
                   <a title="website" className="mr-2" href="https://crepusculum.web.app/." target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faPager} /> </a>
@@ -167,7 +167,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mt-3 mb-2 mr-2"> Zoom and Enhance </span>
                 <span className="social-icons-small">
                   <a title="Source Code" className="mr-2" href="https://github.com/crown523/zoom_and_enhance" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faGithub} /> </a>
@@ -188,7 +188,7 @@ class Projects extends Component {
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <div>
+              <div className="entry-header">
                 <span className="heading mb-2 mr-2"> Hi, My Name is… </span>
                 <span className="social-icons-small">
                   <a title="DEVPOST" className="mr-2" href="https://devpost.com/software/hi-my-name-is" target="_blank" rel="noopener noreferrer">  <FontAwesomeIcon icon={faDev} /> </a>
